@@ -71,52 +71,72 @@
     <Reference Include="System.Web.Mvc">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Scripts\" />
-    <Folder Include="Views\Batch\" />
-    <Folder Include="Views\Shared\" />
-    <Folder Include="Hardware\" />
-    <Folder Include="Views\Recipe\" />
-    <Folder Include="Services\" />
-    <Folder Include="Entities\" />
+    <Folder Include="Content\bootstrap\" />
+    <Folder Include="Content\Css\" />
+    <Folder Include="ActionFilters\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Views\Dashboard\" />
+    <Folder Include="Content\html\" />
+    <Folder Include="Content\html\templates\" />
+    <Folder Include="Content\html\templates\Batch\" />
+    <Folder Include="Content\html\templates\Global\" />
+    <Folder Include="Content\html\templates\Recipe\" />
+    <Folder Include="Content\html\templates\Hardware\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Views\Batch\Index.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\_ViewStart.aspx" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\jquery-2.1.4-vsdoc.js" />
-    <Content Include="Scripts\jquery-2.1.4.js" />
-    <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Views\Batch\BatchList.cshtml" />
-    <Content Include="Views\Recipe\Recipe.cshtml" />
-    <Content Include="Views\Batch\Batch.cshtml" />
+    <Content Include="Content\bootstrap\js\npm.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\Scripts\jquery-2.1.4.js" />
+    <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Content\Scripts\jquery-2.1.4-vsdoc.js" />
+    <Content Include="Content\Css\Site.css" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Content\Scripts\main.js" />
+    <Content Include="Content\html\templates\Batch\BatchName.html" />
+    <Content Include="Content\html\templates\Global\NavigationMenu.html" />
+    <Content Include="Content\html\templates\Recipe\RecipeNav.html" />
+    <Content Include="Content\html\templates\Batch\Batch.html" />
+    <Content Include="Content\html\templates\Global\Panel.html" />
+    <Content Include="Content\html\templates\Global\Curve.html" />
+    <Content Include="Content\bootstrap\js\Chart.js" />
+    <Content Include="Content\bootstrap\js\ObjectId.js" />
+    <Content Include="Content\html\templates\Recipe\Recipe.html" />
+    <Content Include="Content\html\templates\Recipe\RecipeName.html" />
+    <Content Include="Content\bootstrap\img\hg-2.jpg" />
+    <Content Include="Content\bootstrap\js\ng-google-chart.js" />
+    <Content Include="Content\bootstrap\js\google-chart.js" />
+    <Content Include="Content\Scripts\batch-directive.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Controllers\BatchController.cs" />
-    <Compile Include="Hardware\HardwareManager.cs" />
-    <Compile Include="Hardware\Fermenter.cs" />
-    <Compile Include="Entities\Batch.cs" />
-    <Compile Include="Entities\Recipe.cs" />
-    <Compile Include="Entities\DataCurve.cs" />
-    <Compile Include="Entities\Measurable.cs" />
-    <Compile Include="Services\EntityService.cs" />
-    <Compile Include="Services\MongoConnection.cs" />
-    <Compile Include="Services\BatchService.cs" />
-    <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="ActionFilters\CurrentBatchFilter.cs" />
+    <Compile Include="Controllers\RecipeController.cs" />
+    <Compile Include="Helpers\AttributeHelper.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\ObjectIdBinder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -127,6 +147,13 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <None Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Content\Scripts\jquery-2.1.4.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BrewMonitoringMongo\BrewMonitoringMongo.csproj">
+      <Project>{407AB297-D2F4-4E60-8FD5-EEAC255218D3}</Project>
+      <Name>BrewMonitoringMongo</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
