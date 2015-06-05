@@ -1,0 +1,14 @@
+﻿<ul class="nav nav-pills nav-stacked" ng-controller="NavMenuCtrl">
+	<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			Production en cours <span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu">
+			<li ng-repeat="Batch in CurrentBatches" >
+				<batchname></batchname>
+			</li>
+		</ul>
+	</li>
+	<li class=""><a ng-click="CreateBatch()">Créer une Batch</a></li>
+	<li class=""><a ng-click="ShowRecipeNav()">Recettes</a></li>
+</ul>

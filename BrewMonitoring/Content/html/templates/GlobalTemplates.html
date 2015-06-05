@@ -1,0 +1,17 @@
+﻿<ul class="nav nav-pills nav-stacked">
+ 	<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+			Production en cours <span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu">
+			@foreach(Batch CurrBatch in @ViewBag.CurrentBatches) 
+			{
+				<li><a href="#">@Html.Partial("Partials/_BatchName", CurrBatch)</a></li>
+				<li><a href="#">Separated link</a></li>
+			}
+
+		</ul>
+	</li>
+  	
+ <li class=""><a href="/Recipe">Recipes</a></li>
+</ul>

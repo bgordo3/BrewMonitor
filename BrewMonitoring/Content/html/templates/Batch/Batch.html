@@ -1,0 +1,22 @@
+﻿<div class="container col-md-12">
+	<h3> <input class="no-bg" type="text" name="Name" ng-model="Batch.Name" /></h3>
+	<div class="col-md-8">
+		 <div class="batchchart"></div>
+	</div>
+
+	<form class="col-md-4 form-horizontal">
+		<div class="form-group">
+			<label for="select" class="control-label">Fermenteur</label>
+			<select class="form-control" ng-model="Batch.FermentationMesures.HardwareID">
+				<option value="0">Salon Vincent</option>
+				<option value="1">Salon Tomy</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<button type="submit" ng-click="Save()" class="btn btn-primary">Sauvegarder</button>
+		</div>
+		<div class="form-group">
+			<button type="submit" ng-click="Delete()" class="btn btn-danger">Supprimer</button>
+		</div>
+	</form>
+</div>

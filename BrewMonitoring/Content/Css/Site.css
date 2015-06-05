@@ -1,0 +1,30 @@
+﻿.wrap
+{
+	display: table;
+}
+
+body 
+{
+    background-image: url("../bootstrap/img/hg-2.jpg");
+    background-size: 100%;
+}
+
+body 
+{
+    background-image: url("../bootstrap/img/hg-2.jpg");
+    background-size: 100%;
+}
+
+input.no-bg
+{
+	background-color:rgba(256, 256, 256, 0.0);
+	color:#fff;
+	border-style: none;
+}
+
+div.batchchart
+{
+	width: 430px; 
+	height: 300px;
+	background-color:rgba(200, 210, 220, 0.4);
+}

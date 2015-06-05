@@ -1,0 +1,15 @@
+﻿<div role="tabpanel" ng-controller="RecipeNavCtrl">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+	<li  ng-repeat="BeerTypeTab in BeerTypes" role="presentation">{{BeerTypeTab}}yo</li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+  <div ng-repeat="BeerTypeTab in BeerTypes" role="tabpanel" class="tab-pane active in" id="@BeerTypeIt">
+  	<ul class="nav nav-pills nav-stacked" ng-repeat="Recipe in Recipies | filter:{BeerType:BeerTypeTab}">
+		<li><recipename/></li>
+	</ul>
+  </div>
+
+</div>
