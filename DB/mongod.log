@@ -1,0 +1,1357 @@
+2015-05-26T22:05:15.544-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-26T22:05:15.549-0400 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-05-26T22:05:15.549-0400 I CONTROL  Error connecting to the Service Control Manager: Access is denied. (5)
+2015-05-26T22:05:21.907-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-26T22:05:21.912-0400 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-05-26T22:05:21.912-0400 I CONTROL  Error connecting to the Service Control Manager: Access is denied. (5)
+2015-05-26T22:08:57.021-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-26T22:08:57.027-0400 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-05-26T22:08:57.027-0400 I CONTROL  Error connecting to the Service Control Manager: Access is denied. (5)
+2015-05-26T22:09:40.200-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-26T22:09:40.205-0400 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-05-26T22:09:40.206-0400 I CONTROL  Service 'MongoDB' (MongoDB) installed with command line '"C:\Program Files\MongoDB\Server\3.0\bin\mongod.exe" --config C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf --service'
+2015-05-26T22:09:40.206-0400 I CONTROL  Service can be started from the command line with 'net start MongoDB'
+2015-05-26T22:11:52.361-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-26T22:11:52.401-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-05-26T22:11:52.402-0400 I STORAGE  Service running
+2015-05-26T22:11:52.415-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-05-26T22:11:52.416-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-05-26T22:11:52.463-0400 I JOURNAL  [durability] Durability thread started
+2015-05-26T22:11:52.464-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-05-26T22:11:52.614-0400 I CONTROL  [initandlisten] MongoDB starting : pid=4508 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-05-26T22:11:52.614-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-05-26T22:11:52.614-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-05-26T22:11:52.615-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-05-26T22:11:52.615-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-05-26T22:11:52.615-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-05-26T22:11:52.615-0400 I CONTROL  [initandlisten] allocator: system
+2015-05-26T22:11:52.615-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-05-26T22:11:52.617-0400 I INDEX    [initandlisten] allocating new ns file C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\local.ns, filling with zeroes...
+2015-05-26T22:11:52.914-0400 I STORAGE  [FileAllocator] allocating new datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\local.0, filling with zeroes...
+2015-05-26T22:11:52.915-0400 I STORAGE  [FileAllocator] creating directory C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\_tmp
+2015-05-26T22:11:52.930-0400 I STORAGE  [FileAllocator] done allocating datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\local.0, size: 64MB,  took 0.013 secs
+2015-05-26T22:11:52.953-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-05-26T22:12:23.901-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54108 #1 (1 connection now open)
+2015-05-26T22:13:27.398-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54123 #2 (2 connections now open)
+2015-05-26T22:13:27.398-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54124 #3 (3 connections now open)
+2015-05-26T22:13:27.667-0400 I NETWORK  [conn2] end connection 127.0.0.1:54123 (2 connections now open)
+2015-05-26T22:13:27.929-0400 I NETWORK  [conn3] end connection 127.0.0.1:54124 (1 connection now open)
+2015-05-26T22:24:05.776-0400 I INDEX    [conn1] allocating new ns file C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\admin.ns, filling with zeroes...
+2015-05-26T22:24:06.116-0400 I STORAGE  [FileAllocator] allocating new datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\admin.0, filling with zeroes...
+2015-05-26T22:24:06.125-0400 I STORAGE  [FileAllocator] done allocating datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\admin.0, size: 64MB,  took 0.007 secs
+2015-05-26T22:24:06.140-0400 I INDEX    [conn1] build index on: admin.system.users properties: { v: 1, unique: true, key: { user: 1, db: 1 }, name: "user_1_db_1", ns: "admin.system.users" }
+2015-05-26T22:24:06.140-0400 I INDEX    [conn1] 	 building index using bulk method
+2015-05-26T22:24:06.140-0400 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2015-05-26T22:24:06.140-0400 I COMMAND  [conn1] command test.$cmd command: createUser { createUser: "pikaille", pwd: "xxx", customData: {}, roles: [ { role: "readWrite", db: "Brewing" } ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 30000.0 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { w: 4 } }, MMAPV1Journal: { acquireCount: { w: 11 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 7 } } } 692ms
+2015-05-26T22:32:46.823-0400 I NETWORK  [conn1] end connection 127.0.0.1:54108 (0 connections now open)
+2015-05-26T22:32:50.464-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54431 #4 (1 connection now open)
+2015-05-26T22:32:50.469-0400 I NETWORK  [conn4] end connection 127.0.0.1:54431 (0 connections now open)
+2015-05-26T22:33:12.334-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54433 #5 (1 connection now open)
+2015-05-26T22:33:12.339-0400 I NETWORK  [conn5] end connection 127.0.0.1:54433 (0 connections now open)
+2015-05-26T22:34:07.632-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54434 #6 (1 connection now open)
+2015-05-26T22:34:07.639-0400 I NETWORK  [conn6] end connection 127.0.0.1:54434 (0 connections now open)
+2015-05-26T22:34:25.418-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54435 #7 (1 connection now open)
+2015-05-26T22:34:25.424-0400 I NETWORK  [conn7] end connection 127.0.0.1:54435 (0 connections now open)
+2015-05-26T22:45:28.713-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54552 #8 (1 connection now open)
+2015-05-26T22:45:28.719-0400 I NETWORK  [conn8] end connection 127.0.0.1:54552 (0 connections now open)
+2015-05-26T22:45:48.201-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54553 #9 (1 connection now open)
+2015-05-26T22:45:48.206-0400 I NETWORK  [conn9] end connection 127.0.0.1:54553 (0 connections now open)
+2015-05-26T22:45:51.048-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54554 #10 (1 connection now open)
+2015-05-26T22:45:51.054-0400 I NETWORK  [conn10] end connection 127.0.0.1:54554 (0 connections now open)
+2015-05-26T22:46:31.982-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54555 #11 (1 connection now open)
+2015-05-26T22:46:31.988-0400 I NETWORK  [conn11] end connection 127.0.0.1:54555 (0 connections now open)
+2015-05-26T22:46:49.647-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54556 #12 (1 connection now open)
+2015-05-26T22:46:49.653-0400 I NETWORK  [conn12] end connection 127.0.0.1:54556 (0 connections now open)
+2015-05-26T22:47:12.569-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54558 #13 (1 connection now open)
+2015-05-26T22:47:12.575-0400 I NETWORK  [conn13] end connection 127.0.0.1:54558 (0 connections now open)
+2015-05-26T22:47:20.060-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54559 #14 (1 connection now open)
+2015-05-26T22:47:20.066-0400 I NETWORK  [conn14] end connection 127.0.0.1:54559 (0 connections now open)
+2015-05-26T22:47:22.373-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54560 #15 (1 connection now open)
+2015-05-26T22:47:22.377-0400 I NETWORK  [conn15] end connection 127.0.0.1:54560 (0 connections now open)
+2015-05-26T22:47:24.531-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54561 #16 (1 connection now open)
+2015-05-26T22:47:24.537-0400 I NETWORK  [conn16] end connection 127.0.0.1:54561 (0 connections now open)
+2015-05-26T22:48:41.539-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54587 #17 (1 connection now open)
+2015-05-26T22:48:41.545-0400 I NETWORK  [conn17] end connection 127.0.0.1:54587 (0 connections now open)
+2015-05-26T22:48:56.876-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54588 #18 (1 connection now open)
+2015-05-26T22:48:56.881-0400 I NETWORK  [conn18] end connection 127.0.0.1:54588 (0 connections now open)
+2015-05-26T22:49:32.594-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54589 #19 (1 connection now open)
+2015-05-26T22:49:32.599-0400 I NETWORK  [conn19] end connection 127.0.0.1:54589 (0 connections now open)
+2015-05-26T22:49:48.242-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54590 #20 (1 connection now open)
+2015-05-26T22:49:48.246-0400 I NETWORK  [conn20] end connection 127.0.0.1:54590 (0 connections now open)
+2015-05-26T22:51:46.633-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54591 #21 (1 connection now open)
+2015-05-26T22:51:47.658-0400 I NETWORK  [conn21] end connection 127.0.0.1:54591 (0 connections now open)
+2015-05-26T22:52:42.858-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54593 #22 (1 connection now open)
+2015-05-26T22:52:43.888-0400 I NETWORK  [conn22] end connection 127.0.0.1:54593 (0 connections now open)
+2015-05-26T22:53:29.319-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54596 #23 (1 connection now open)
+2015-05-26T22:53:29.322-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54597 #24 (2 connections now open)
+2015-05-26T22:53:29.323-0400 I INDEX    [conn24] allocating new ns file C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\Brewing.ns, filling with zeroes...
+2015-05-26T22:53:29.714-0400 I STORAGE  [FileAllocator] allocating new datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\Brewing.0, filling with zeroes...
+2015-05-26T22:53:29.719-0400 I STORAGE  [FileAllocator] done allocating datafile C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\Brewing.0, size: 64MB,  took 0.003 secs
+2015-05-26T22:53:29.730-0400 I COMMAND  [conn24] command Brewing.$cmd command: create { create: "Batch" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { w: 1 } }, MMAPV1Journal: { acquireCount: { w: 6 } }, Database: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 406ms
+2015-05-26T22:53:29.752-0400 I NETWORK  [conn23] end connection 127.0.0.1:54596 (1 connection now open)
+2015-05-26T22:53:29.752-0400 I NETWORK  [conn24] end connection 127.0.0.1:54597 (1 connection now open)
+2015-05-26T23:03:09.190-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54763 #25 (1 connection now open)
+2015-05-26T23:03:09.201-0400 I NETWORK  [conn25] end connection 127.0.0.1:54763 (0 connections now open)
+2015-05-26T23:03:29.561-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54765 #26 (1 connection now open)
+2015-05-26T23:03:29.565-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54766 #27 (2 connections now open)
+2015-05-26T23:03:29.582-0400 I NETWORK  [conn27] end connection 127.0.0.1:54766 (1 connection now open)
+2015-05-26T23:03:29.582-0400 I NETWORK  [conn26] end connection 127.0.0.1:54765 (1 connection now open)
+2015-05-26T23:09:46.351-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54884 #28 (1 connection now open)
+2015-05-26T23:09:46.355-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54885 #29 (2 connections now open)
+2015-05-26T23:09:46.366-0400 I NETWORK  [conn29] end connection 127.0.0.1:54885 (1 connection now open)
+2015-05-26T23:09:46.366-0400 I NETWORK  [conn28] end connection 127.0.0.1:54884 (0 connections now open)
+2015-05-26T23:10:27.300-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54886 #30 (1 connection now open)
+2015-05-26T23:10:27.303-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54887 #31 (2 connections now open)
+2015-05-26T23:10:27.304-0400 I COMMAND  [conn31] CMD: drop Brewing.Recipe
+2015-05-26T23:10:27.311-0400 I COMMAND  [conn31] CMD: drop Brewing.Batch
+2015-05-26T23:10:27.342-0400 I NETWORK  [conn30] end connection 127.0.0.1:54886 (1 connection now open)
+2015-05-26T23:10:27.342-0400 I NETWORK  [conn31] end connection 127.0.0.1:54887 (1 connection now open)
+2015-05-26T23:12:11.810-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54973 #32 (1 connection now open)
+2015-05-26T23:12:11.814-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54974 #33 (2 connections now open)
+2015-05-26T23:12:11.815-0400 I COMMAND  [conn33] CMD: drop Brewing.Recipe
+2015-05-26T23:12:11.820-0400 I COMMAND  [conn33] CMD: drop Brewing.Batch
+2015-05-26T23:12:11.846-0400 I NETWORK  [conn32] end connection 127.0.0.1:54973 (1 connection now open)
+2015-05-26T23:12:11.846-0400 I NETWORK  [conn33] end connection 127.0.0.1:54974 (1 connection now open)
+2015-05-26T23:14:44.941-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55018 #34 (1 connection now open)
+2015-05-26T23:14:44.952-0400 I NETWORK  [conn34] end connection 127.0.0.1:55018 (0 connections now open)
+2015-05-26T23:14:56.477-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55019 #35 (1 connection now open)
+2015-05-26T23:14:56.480-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55020 #36 (2 connections now open)
+2015-05-26T23:14:56.481-0400 I COMMAND  [conn36] CMD: drop Brewing.Recipe
+2015-05-26T23:14:56.486-0400 I COMMAND  [conn36] CMD: drop Brewing.Batch
+2015-05-26T23:14:56.511-0400 I NETWORK  [conn35] end connection 127.0.0.1:55019 (1 connection now open)
+2015-05-26T23:14:56.511-0400 I NETWORK  [conn36] end connection 127.0.0.1:55020 (1 connection now open)
+2015-05-26T23:16:11.266-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55067 #37 (1 connection now open)
+2015-05-26T23:16:11.269-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55068 #38 (2 connections now open)
+2015-05-26T23:16:11.299-0400 I NETWORK  [conn38] end connection 127.0.0.1:55068 (1 connection now open)
+2015-05-26T23:16:11.299-0400 I NETWORK  [conn37] end connection 127.0.0.1:55067 (1 connection now open)
+2015-05-26T23:17:48.976-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55127 #39 (1 connection now open)
+2015-05-26T23:17:48.979-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55128 #40 (2 connections now open)
+2015-05-26T23:17:49.009-0400 I NETWORK  [conn40] end connection 127.0.0.1:55128 (1 connection now open)
+2015-05-26T23:17:49.009-0400 I NETWORK  [conn39] end connection 127.0.0.1:55127 (1 connection now open)
+2015-05-26T23:18:11.002-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55130 #41 (1 connection now open)
+2015-05-26T23:18:11.005-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55131 #42 (2 connections now open)
+2015-05-26T23:18:11.034-0400 I NETWORK  [conn41] end connection 127.0.0.1:55130 (1 connection now open)
+2015-05-26T23:18:11.035-0400 I NETWORK  [conn42] end connection 127.0.0.1:55131 (1 connection now open)
+2015-05-26T23:18:51.712-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55132 #43 (1 connection now open)
+2015-05-26T23:18:51.716-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55133 #44 (2 connections now open)
+2015-05-26T23:18:51.746-0400 I NETWORK  [conn43] end connection 127.0.0.1:55132 (1 connection now open)
+2015-05-26T23:18:51.746-0400 I NETWORK  [conn44] end connection 127.0.0.1:55133 (1 connection now open)
+2015-05-26T23:39:08.173-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55739 #45 (1 connection now open)
+2015-05-26T23:39:09.806-0400 I NETWORK  [conn45] end connection 127.0.0.1:55739 (0 connections now open)
+2015-05-26T23:43:42.552-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55803 #46 (1 connection now open)
+2015-05-26T23:43:42.858-0400 I ACCESS   [conn46] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:43:42.879-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55804 #47 (2 connections now open)
+2015-05-26T23:43:43.017-0400 I ACCESS   [conn47] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:44:04.124-0400 I NETWORK  [conn46] end connection 127.0.0.1:55803 (1 connection now open)
+2015-05-26T23:44:04.124-0400 I NETWORK  [conn47] end connection 127.0.0.1:55804 (0 connections now open)
+2015-05-26T23:44:09.239-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55809 #48 (1 connection now open)
+2015-05-26T23:44:09.510-0400 I ACCESS   [conn48] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:44:09.550-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55810 #49 (2 connections now open)
+2015-05-26T23:44:09.693-0400 I ACCESS   [conn49] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:44:31.265-0400 I NETWORK  [conn48] end connection 127.0.0.1:55809 (1 connection now open)
+2015-05-26T23:44:31.265-0400 I NETWORK  [conn49] end connection 127.0.0.1:55810 (1 connection now open)
+2015-05-26T23:44:37.774-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55819 #50 (1 connection now open)
+2015-05-26T23:44:38.072-0400 I ACCESS   [conn50] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:44:38.097-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55820 #51 (2 connections now open)
+2015-05-26T23:44:38.244-0400 I ACCESS   [conn51] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:51:24.653-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55999 #52 (3 connections now open)
+2015-05-26T23:51:24.656-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56000 #53 (4 connections now open)
+2015-05-26T23:51:24.658-0400 I COMMAND  [conn53] CMD: drop Brewing.Recipe
+2015-05-26T23:51:24.663-0400 I COMMAND  [conn53] CMD: drop Brewing.Batch
+2015-05-26T23:51:24.688-0400 I NETWORK  [conn53] end connection 127.0.0.1:56000 (3 connections now open)
+2015-05-26T23:51:24.688-0400 I NETWORK  [conn52] end connection 127.0.0.1:55999 (3 connections now open)
+2015-05-26T23:51:29.461-0400 I NETWORK  [conn50] end connection 127.0.0.1:55819 (1 connection now open)
+2015-05-26T23:51:29.461-0400 I NETWORK  [conn51] end connection 127.0.0.1:55820 (0 connections now open)
+2015-05-26T23:51:35.084-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56005 #54 (1 connection now open)
+2015-05-26T23:51:35.374-0400 I ACCESS   [conn54] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:51:35.393-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56006 #55 (2 connections now open)
+2015-05-26T23:51:35.531-0400 I ACCESS   [conn55] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:52:17.402-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56007 #56 (3 connections now open)
+2015-05-26T23:52:17.405-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56008 #57 (4 connections now open)
+2015-05-26T23:52:17.406-0400 I COMMAND  [conn57] CMD: drop Brewing.Recipe
+2015-05-26T23:52:17.411-0400 I COMMAND  [conn57] CMD: drop Brewing.Batch
+2015-05-26T23:52:17.438-0400 I NETWORK  [conn56] end connection 127.0.0.1:56007 (3 connections now open)
+2015-05-26T23:52:17.438-0400 I NETWORK  [conn57] end connection 127.0.0.1:56008 (3 connections now open)
+2015-05-26T23:52:47.351-0400 I NETWORK  [conn55] end connection 127.0.0.1:56006 (1 connection now open)
+2015-05-26T23:52:47.351-0400 I NETWORK  [conn54] end connection 127.0.0.1:56005 (1 connection now open)
+2015-05-26T23:52:50.350-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56015 #58 (1 connection now open)
+2015-05-26T23:52:50.673-0400 I ACCESS   [conn58] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:52:50.696-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56016 #59 (2 connections now open)
+2015-05-26T23:52:50.871-0400 I ACCESS   [conn59] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:53:21.573-0400 I NETWORK  [conn59] end connection 127.0.0.1:56016 (1 connection now open)
+2015-05-26T23:53:21.573-0400 I NETWORK  [conn58] end connection 127.0.0.1:56015 (1 connection now open)
+2015-05-26T23:53:26.879-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56023 #60 (1 connection now open)
+2015-05-26T23:53:27.202-0400 I ACCESS   [conn60] Successfully authenticated as principal pikaille on Brewing
+2015-05-26T23:53:27.225-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56024 #61 (2 connections now open)
+2015-05-26T23:53:27.361-0400 I ACCESS   [conn61] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T00:04:27.003-0400 I NETWORK  [conn61] end connection 127.0.0.1:56024 (1 connection now open)
+2015-05-27T18:10:50.542-0400 I COMMAND  [PeriodicTaskRunner] task: DBConnectionPool-cleaner took: 38ms
+2015-05-27T18:44:42.884-0400 I NETWORK  [conn60] end connection 127.0.0.1:56023 (0 connections now open)
+2015-05-27T18:44:51.164-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57778 #62 (1 connection now open)
+2015-05-27T18:44:51.538-0400 I ACCESS   [conn62] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T18:44:51.562-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57779 #63 (2 connections now open)
+2015-05-27T18:44:51.812-0400 I ACCESS   [conn63] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T18:44:55.118-0400 I NETWORK  [conn62] end connection 127.0.0.1:57778 (1 connection now open)
+2015-05-27T18:44:55.118-0400 I NETWORK  [conn63] end connection 127.0.0.1:57779 (0 connections now open)
+2015-05-27T20:04:38.541-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58815 #64 (1 connection now open)
+2015-05-27T20:04:38.830-0400 I ACCESS   [conn64] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T20:04:38.849-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58816 #65 (2 connections now open)
+2015-05-27T20:04:38.991-0400 I ACCESS   [conn65] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T20:28:27.130-0400 I NETWORK  [conn64] end connection 127.0.0.1:58815 (1 connection now open)
+2015-05-27T20:28:27.130-0400 I NETWORK  [conn65] end connection 127.0.0.1:58816 (1 connection now open)
+2015-05-27T20:28:39.938-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58964 #66 (1 connection now open)
+2015-05-27T20:28:40.234-0400 I ACCESS   [conn66] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T20:28:40.255-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58965 #67 (2 connections now open)
+2015-05-27T20:28:40.402-0400 I ACCESS   [conn67] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T20:54:40.110-0400 I NETWORK  [conn67] end connection 127.0.0.1:58965 (1 connection now open)
+2015-05-27T20:59:00.440-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59532 #68 (2 connections now open)
+2015-05-27T20:59:00.586-0400 I ACCESS   [conn68] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T20:59:46.516-0400 I NETWORK  [conn66] end connection 127.0.0.1:58964 (1 connection now open)
+2015-05-27T20:59:46.517-0400 I NETWORK  [conn68] end connection 127.0.0.1:59532 (0 connections now open)
+2015-05-27T21:05:25.725-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59572 #69 (1 connection now open)
+2015-05-27T21:05:25.990-0400 I ACCESS   [conn69] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:05:26.014-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59573 #70 (2 connections now open)
+2015-05-27T21:05:26.483-0400 I ACCESS   [conn70] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:10:06.820-0400 I NETWORK  [conn69] end connection 127.0.0.1:59572 (1 connection now open)
+2015-05-27T21:10:06.820-0400 I NETWORK  [conn70] end connection 127.0.0.1:59573 (0 connections now open)
+2015-05-27T21:10:14.463-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59816 #71 (1 connection now open)
+2015-05-27T21:10:14.763-0400 I ACCESS   [conn71] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:10:14.787-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59817 #72 (2 connections now open)
+2015-05-27T21:10:14.953-0400 I ACCESS   [conn72] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:22:14.493-0400 I NETWORK  [conn72] end connection 127.0.0.1:59817 (1 connection now open)
+2015-05-27T21:30:44.915-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60316 #73 (2 connections now open)
+2015-05-27T21:30:45.116-0400 I ACCESS   [conn73] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:41:14.563-0400 I NETWORK  [conn73] end connection 127.0.0.1:60316 (1 connection now open)
+2015-05-27T21:44:26.384-0400 I NETWORK  [conn71] end connection 127.0.0.1:59816 (0 connections now open)
+2015-05-27T21:45:33.124-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60631 #74 (1 connection now open)
+2015-05-27T21:45:33.388-0400 I ACCESS   [conn74] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:45:33.409-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60632 #75 (2 connections now open)
+2015-05-27T21:45:33.552-0400 I ACCESS   [conn75] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T21:56:33.191-0400 I NETWORK  [conn75] end connection 127.0.0.1:60632 (1 connection now open)
+2015-05-27T22:06:03.492-0400 I NETWORK  [conn74] end connection 127.0.0.1:60631 (0 connections now open)
+2015-05-27T22:48:07.503-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62362 #76 (1 connection now open)
+2015-05-27T22:48:07.834-0400 I ACCESS   [conn76] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T22:48:07.855-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62363 #77 (2 connections now open)
+2015-05-27T22:48:08.003-0400 I ACCESS   [conn77] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T22:52:11.890-0400 I NETWORK  [conn76] end connection 127.0.0.1:62362 (1 connection now open)
+2015-05-27T22:52:11.890-0400 I NETWORK  [conn77] end connection 127.0.0.1:62363 (1 connection now open)
+2015-05-27T22:52:18.334-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62463 #78 (1 connection now open)
+2015-05-27T22:52:18.595-0400 I ACCESS   [conn78] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T22:52:18.616-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62464 #79 (2 connections now open)
+2015-05-27T22:52:18.760-0400 I ACCESS   [conn79] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:02:15.861-0400 I NETWORK  [conn78] end connection 127.0.0.1:62463 (1 connection now open)
+2015-05-27T23:02:15.861-0400 I NETWORK  [conn79] end connection 127.0.0.1:62464 (1 connection now open)
+2015-05-27T23:02:33.446-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62600 #80 (1 connection now open)
+2015-05-27T23:02:33.735-0400 I ACCESS   [conn80] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:02:33.755-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62601 #81 (2 connections now open)
+2015-05-27T23:02:34.123-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62602 #82 (3 connections now open)
+2015-05-27T23:02:34.570-0400 I ACCESS   [conn81] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:02:34.700-0400 I ACCESS   [conn82] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:13:33.489-0400 I NETWORK  [conn81] end connection 127.0.0.1:62601 (2 connections now open)
+2015-05-27T23:18:33.504-0400 I NETWORK  [conn82] end connection 127.0.0.1:62602 (1 connection now open)
+2015-05-27T23:25:59.081-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63073 #83 (2 connections now open)
+2015-05-27T23:25:59.243-0400 I ACCESS   [conn83] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:33:37.760-0400 I NETWORK  [conn80] end connection 127.0.0.1:62600 (1 connection now open)
+2015-05-27T23:33:37.760-0400 I NETWORK  [conn83] end connection 127.0.0.1:63073 (1 connection now open)
+2015-05-27T23:49:04.241-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63220 #84 (1 connection now open)
+2015-05-27T23:49:04.499-0400 I ACCESS   [conn84] Successfully authenticated as principal pikaille on Brewing
+2015-05-27T23:49:04.523-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63221 #85 (2 connections now open)
+2015-05-27T23:49:04.668-0400 I ACCESS   [conn85] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:00:04.296-0400 I NETWORK  [conn85] end connection 127.0.0.1:63221 (1 connection now open)
+2015-05-28T00:09:07.734-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63431 #86 (2 connections now open)
+2015-05-28T00:09:07.893-0400 I ACCESS   [conn86] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:11:08.956-0400 I NETWORK  [conn84] end connection 127.0.0.1:63220 (1 connection now open)
+2015-05-28T00:11:08.956-0400 I NETWORK  [conn86] end connection 127.0.0.1:63431 (0 connections now open)
+2015-05-28T00:11:49.282-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63448 #87 (1 connection now open)
+2015-05-28T00:11:49.539-0400 I ACCESS   [conn87] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:11:49.561-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63449 #88 (2 connections now open)
+2015-05-28T00:11:49.704-0400 I ACCESS   [conn88] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:13:30.418-0400 I NETWORK  [conn87] end connection 127.0.0.1:63448 (1 connection now open)
+2015-05-28T00:13:30.419-0400 I NETWORK  [conn88] end connection 127.0.0.1:63449 (0 connections now open)
+2015-05-28T00:13:33.374-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63459 #89 (1 connection now open)
+2015-05-28T00:13:33.658-0400 I ACCESS   [conn89] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:13:33.683-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63460 #90 (2 connections now open)
+2015-05-28T00:13:33.831-0400 I ACCESS   [conn90] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:14:18.119-0400 I NETWORK  [conn89] end connection 127.0.0.1:63459 (1 connection now open)
+2015-05-28T00:14:18.119-0400 I NETWORK  [conn90] end connection 127.0.0.1:63460 (1 connection now open)
+2015-05-28T00:14:25.730-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63473 #91 (1 connection now open)
+2015-05-28T00:14:26.012-0400 I ACCESS   [conn91] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:14:26.020-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63474 #92 (2 connections now open)
+2015-05-28T00:14:26.168-0400 I ACCESS   [conn92] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:19:28.673-0400 I NETWORK  [conn91] end connection 127.0.0.1:63473 (1 connection now open)
+2015-05-28T00:19:28.673-0400 I NETWORK  [conn92] end connection 127.0.0.1:63474 (1 connection now open)
+2015-05-28T00:19:34.989-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63487 #93 (1 connection now open)
+2015-05-28T00:19:35.246-0400 I ACCESS   [conn93] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:19:35.267-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63488 #94 (2 connections now open)
+2015-05-28T00:19:35.428-0400 I ACCESS   [conn94] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:22:02.875-0400 I NETWORK  [conn93] end connection 127.0.0.1:63487 (1 connection now open)
+2015-05-28T00:22:02.875-0400 I NETWORK  [conn94] end connection 127.0.0.1:63488 (1 connection now open)
+2015-05-28T00:22:05.846-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63497 #95 (1 connection now open)
+2015-05-28T00:22:06.105-0400 I ACCESS   [conn95] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:22:06.126-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63498 #96 (2 connections now open)
+2015-05-28T00:22:06.288-0400 I ACCESS   [conn96] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:25:19.164-0400 I NETWORK  [conn95] end connection 127.0.0.1:63497 (1 connection now open)
+2015-05-28T00:25:19.165-0400 I NETWORK  [conn96] end connection 127.0.0.1:63498 (0 connections now open)
+2015-05-28T00:25:22.179-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63563 #97 (1 connection now open)
+2015-05-28T00:25:22.443-0400 I ACCESS   [conn97] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:25:22.467-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63564 #98 (2 connections now open)
+2015-05-28T00:25:22.612-0400 I ACCESS   [conn98] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:25:50.595-0400 I NETWORK  [conn97] end connection 127.0.0.1:63563 (1 connection now open)
+2015-05-28T00:25:50.596-0400 I NETWORK  [conn98] end connection 127.0.0.1:63564 (0 connections now open)
+2015-05-28T00:25:55.842-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63570 #99 (1 connection now open)
+2015-05-28T00:25:56.108-0400 I ACCESS   [conn99] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:25:56.127-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63571 #100 (2 connections now open)
+2015-05-28T00:25:56.273-0400 I ACCESS   [conn100] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:27:50.455-0400 I NETWORK  [conn99] end connection 127.0.0.1:63570 (1 connection now open)
+2015-05-28T00:27:50.455-0400 I NETWORK  [conn100] end connection 127.0.0.1:63571 (0 connections now open)
+2015-05-28T00:27:53.794-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63629 #101 (1 connection now open)
+2015-05-28T00:27:54.077-0400 I ACCESS   [conn101] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:27:54.105-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63630 #102 (2 connections now open)
+2015-05-28T00:27:54.247-0400 I ACCESS   [conn102] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:51:53.363-0400 I NETWORK  [conn102] end connection 127.0.0.1:63630 (1 connection now open)
+2015-05-28T00:51:53.363-0400 I NETWORK  [conn101] end connection 127.0.0.1:63629 (0 connections now open)
+2015-05-28T00:52:08.583-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63861 #103 (1 connection now open)
+2015-05-28T00:52:08.839-0400 I ACCESS   [conn103] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T00:52:08.859-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63862 #104 (2 connections now open)
+2015-05-28T00:52:09.006-0400 I ACCESS   [conn104] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T01:06:08.689-0400 I NETWORK  [conn104] end connection 127.0.0.1:63862 (1 connection now open)
+2015-05-28T19:31:25.738-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65400 #105 (2 connections now open)
+2015-05-28T19:31:25.891-0400 I ACCESS   [conn105] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T19:42:27.703-0400 I NETWORK  [conn105] end connection 127.0.0.1:65400 (1 connection now open)
+2015-05-28T20:14:57.294-0400 I NETWORK  [conn103] end connection 127.0.0.1:63861 (0 connections now open)
+2015-05-28T20:15:34.828-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49493 #106 (1 connection now open)
+2015-05-28T20:15:35.090-0400 I ACCESS   [conn106] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T20:15:35.112-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49494 #107 (2 connections now open)
+2015-05-28T20:15:35.260-0400 I ACCESS   [conn107] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T20:26:34.892-0400 I NETWORK  [conn107] end connection 127.0.0.1:49494 (1 connection now open)
+2015-05-28T22:54:28.484-0400 I NETWORK  [conn106] end connection 127.0.0.1:49493 (0 connections now open)
+2015-05-28T22:54:36.462-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51613 #108 (1 connection now open)
+2015-05-28T22:54:36.742-0400 I ACCESS   [conn108] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T22:54:36.764-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51614 #109 (2 connections now open)
+2015-05-28T22:54:36.909-0400 I ACCESS   [conn109] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T23:05:36.498-0400 I NETWORK  [conn109] end connection 127.0.0.1:51614 (1 connection now open)
+2015-05-28T23:44:37.362-0400 I NETWORK  [conn108] end connection 127.0.0.1:51613 (0 connections now open)
+2015-05-28T23:44:53.549-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52488 #110 (1 connection now open)
+2015-05-28T23:44:53.905-0400 I ACCESS   [conn110] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T23:44:53.926-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52489 #111 (2 connections now open)
+2015-05-28T23:44:54.076-0400 I ACCESS   [conn111] Successfully authenticated as principal pikaille on Brewing
+2015-05-28T23:55:53.599-0400 I NETWORK  [conn111] end connection 127.0.0.1:52489 (1 connection now open)
+2015-05-29T20:37:07.541-0400 I NETWORK  [conn110] end connection 127.0.0.1:52488 (0 connections now open)
+2015-05-29T20:37:18.690-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56650 #112 (1 connection now open)
+2015-05-29T20:37:18.986-0400 I ACCESS   [conn112] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T20:37:18.993-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56651 #113 (2 connections now open)
+2015-05-29T20:37:19.149-0400 I ACCESS   [conn113] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T20:48:18.739-0400 I NETWORK  [conn113] end connection 127.0.0.1:56651 (1 connection now open)
+2015-05-29T21:03:29.356-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57038 #114 (2 connections now open)
+2015-05-29T21:03:29.518-0400 I ACCESS   [conn114] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T21:03:32.419-0400 I NETWORK  [conn112] end connection 127.0.0.1:56650 (1 connection now open)
+2015-05-29T21:03:32.420-0400 I NETWORK  [conn114] end connection 127.0.0.1:57038 (0 connections now open)
+2015-05-29T22:59:08.410-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58778 #115 (1 connection now open)
+2015-05-29T22:59:08.681-0400 I ACCESS   [conn115] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T22:59:08.704-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58779 #116 (2 connections now open)
+2015-05-29T22:59:08.851-0400 I ACCESS   [conn116] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:02:54.180-0400 I NETWORK  [conn116] end connection 127.0.0.1:58779 (1 connection now open)
+2015-05-29T23:02:54.180-0400 I NETWORK  [conn115] end connection 127.0.0.1:58778 (1 connection now open)
+2015-05-29T23:03:22.475-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58897 #117 (1 connection now open)
+2015-05-29T23:03:22.761-0400 I ACCESS   [conn117] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:03:22.782-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58898 #118 (2 connections now open)
+2015-05-29T23:03:23.360-0400 I ACCESS   [conn118] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:04:36.156-0400 I NETWORK  [conn117] end connection 127.0.0.1:58897 (1 connection now open)
+2015-05-29T23:04:36.157-0400 I NETWORK  [conn118] end connection 127.0.0.1:58898 (0 connections now open)
+2015-05-29T23:04:43.956-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58932 #119 (1 connection now open)
+2015-05-29T23:04:44.217-0400 I ACCESS   [conn119] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:04:44.239-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58933 #120 (2 connections now open)
+2015-05-29T23:04:44.383-0400 I ACCESS   [conn120] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:10:12.632-0400 I NETWORK  [conn119] end connection 127.0.0.1:58932 (1 connection now open)
+2015-05-29T23:10:12.632-0400 I NETWORK  [conn120] end connection 127.0.0.1:58933 (0 connections now open)
+2015-05-29T23:10:18.976-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58962 #121 (1 connection now open)
+2015-05-29T23:10:19.247-0400 I ACCESS   [conn121] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:10:19.280-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58963 #122 (2 connections now open)
+2015-05-29T23:10:19.438-0400 I ACCESS   [conn122] Successfully authenticated as principal pikaille on Brewing
+2015-05-29T23:30:19.282-0400 I NETWORK  [conn122] end connection 127.0.0.1:58963 (1 connection now open)
+2015-05-30T00:26:21.281-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59765 #123 (2 connections now open)
+2015-05-30T00:26:21.451-0400 I ACCESS   [conn123] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T00:41:19.395-0400 I NETWORK  [conn123] end connection 127.0.0.1:59765 (1 connection now open)
+2015-05-30T01:05:43.101-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60778 #124 (2 connections now open)
+2015-05-30T01:05:43.250-0400 I ACCESS   [conn124] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T01:22:19.623-0400 I NETWORK  [conn124] end connection 127.0.0.1:60778 (1 connection now open)
+2015-05-30T01:25:58.682-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61376 #125 (2 connections now open)
+2015-05-30T01:25:58.827-0400 I ACCESS   [conn125] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T01:55:19.781-0400 I NETWORK  [conn125] end connection 127.0.0.1:61376 (1 connection now open)
+2015-05-30T10:29:46.543-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50358 #126 (2 connections now open)
+2015-05-30T10:29:46.698-0400 I ACCESS   [conn126] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T10:40:27.360-0400 I NETWORK  [conn126] end connection 127.0.0.1:50358 (1 connection now open)
+2015-05-30T10:58:49.835-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50882 #127 (2 connections now open)
+2015-05-30T10:58:49.994-0400 I ACCESS   [conn127] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T11:18:27.562-0400 I NETWORK  [conn127] end connection 127.0.0.1:50882 (1 connection now open)
+2015-05-30T12:04:58.642-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52405 #128 (2 connections now open)
+2015-05-30T12:04:58.836-0400 I ACCESS   [conn128] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T12:10:46.599-0400 I NETWORK  [conn128] end connection 127.0.0.1:52405 (1 connection now open)
+2015-05-30T12:10:46.599-0400 I NETWORK  [conn121] end connection 127.0.0.1:58962 (0 connections now open)
+2015-05-30T12:15:53.372-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52606 #129 (1 connection now open)
+2015-05-30T12:15:53.628-0400 I ACCESS   [conn129] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T12:15:53.648-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52607 #130 (2 connections now open)
+2015-05-30T12:15:53.793-0400 I ACCESS   [conn130] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T12:45:58.081-0400 I NETWORK  [conn130] end connection 127.0.0.1:52607 (1 connection now open)
+2015-05-30T13:01:05.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53246 #131 (2 connections now open)
+2015-05-30T13:01:05.318-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53247 #132 (3 connections now open)
+2015-05-30T13:01:05.702-0400 I ACCESS   [conn132] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T13:01:05.709-0400 I ACCESS   [conn131] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T13:11:58.297-0400 I NETWORK  [conn132] end connection 127.0.0.1:53247 (2 connections now open)
+2015-05-30T13:31:59.907-0400 I NETWORK  [conn131] end connection 127.0.0.1:53246 (1 connection now open)
+2015-05-30T13:40:51.792-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53745 #133 (2 connections now open)
+2015-05-30T13:40:51.945-0400 I ACCESS   [conn133] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T14:03:00.141-0400 I NETWORK  [conn133] end connection 127.0.0.1:53745 (1 connection now open)
+2015-05-30T14:17:12.241-0400 I NETWORK  [conn129] end connection 127.0.0.1:52606 (0 connections now open)
+2015-05-30T14:19:27.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54394 #134 (1 connection now open)
+2015-05-30T14:19:27.572-0400 I ACCESS   [conn134] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T14:19:27.592-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54395 #135 (2 connections now open)
+2015-05-30T14:19:27.733-0400 I ACCESS   [conn135] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T14:50:27.533-0400 I NETWORK  [conn135] end connection 127.0.0.1:54395 (1 connection now open)
+2015-05-30T14:57:06.286-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54926 #136 (2 connections now open)
+2015-05-30T14:57:06.436-0400 I ACCESS   [conn136] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T15:09:27.704-0400 I NETWORK  [conn136] end connection 127.0.0.1:54926 (1 connection now open)
+2015-05-30T17:15:57.079-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55326 #137 (2 connections now open)
+2015-05-30T17:15:57.241-0400 I ACCESS   [conn137] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T17:26:28.720-0400 I NETWORK  [conn137] end connection 127.0.0.1:55326 (1 connection now open)
+2015-05-30T18:08:43.438-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55849 #138 (2 connections now open)
+2015-05-30T18:08:43.590-0400 I ACCESS   [conn138] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:18:59.289-0400 I NETWORK  [conn134] end connection 127.0.0.1:54394 (1 connection now open)
+2015-05-30T18:18:59.289-0400 I NETWORK  [conn138] end connection 127.0.0.1:55849 (0 connections now open)
+2015-05-30T18:19:25.410-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56032 #139 (1 connection now open)
+2015-05-30T18:19:25.680-0400 I ACCESS   [conn139] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:19:25.700-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56033 #140 (2 connections now open)
+2015-05-30T18:19:25.867-0400 I ACCESS   [conn140] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:26:32.148-0400 I NETWORK  [conn139] end connection 127.0.0.1:56032 (1 connection now open)
+2015-05-30T18:26:32.149-0400 I NETWORK  [conn140] end connection 127.0.0.1:56033 (0 connections now open)
+2015-05-30T18:33:24.999-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56164 #141 (1 connection now open)
+2015-05-30T18:33:25.279-0400 I ACCESS   [conn141] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:33:25.302-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56165 #142 (2 connections now open)
+2015-05-30T18:33:25.447-0400 I ACCESS   [conn142] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:38:20.438-0400 I NETWORK  [conn141] end connection 127.0.0.1:56164 (1 connection now open)
+2015-05-30T18:38:20.438-0400 I NETWORK  [conn142] end connection 127.0.0.1:56165 (1 connection now open)
+2015-05-30T18:38:24.597-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56227 #143 (1 connection now open)
+2015-05-30T18:38:24.865-0400 I ACCESS   [conn143] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:38:24.903-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56228 #144 (2 connections now open)
+2015-05-30T18:38:25.526-0400 I ACCESS   [conn144] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:44:11.951-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-30T18:44:12.491-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-05-30T18:44:12.493-0400 I STORAGE  Service running
+2015-05-30T18:44:13.592-0400 W -        [initandlisten] Detected unclean shutdown - C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\mongod.lock is not empty.
+2015-05-30T18:44:13.740-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-05-30T18:44:13.796-0400 I JOURNAL  [initandlisten] recover begin
+2015-05-30T18:44:13.932-0400 I JOURNAL  [initandlisten] recover lsn: 5823285
+2015-05-30T18:44:13.932-0400 I JOURNAL  [initandlisten] recover C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal\j._0
+2015-05-30T18:44:13.958-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:0 < lsn:5823285
+2015-05-30T18:44:13.959-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:698223 < lsn:5823285
+2015-05-30T18:44:13.959-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:2388272 < lsn:5823285
+2015-05-30T18:44:13.960-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:2970524 < lsn:5823285
+2015-05-30T18:44:13.961-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:3378799 < lsn:5823285
+2015-05-30T18:44:13.961-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:3495131 < lsn:5823285
+2015-05-30T18:44:13.961-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:3669974 < lsn:5823285
+2015-05-30T18:44:13.961-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:3728176 < lsn:5823285
+2015-05-30T18:44:13.961-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:3786458 < lsn:5823285
+2015-05-30T18:44:13.962-0400 I JOURNAL  [initandlisten] recover skipping application of section more...
+2015-05-30T18:44:14.684-0400 I JOURNAL  [initandlisten] recover cleaning up
+2015-05-30T18:44:14.684-0400 I JOURNAL  [initandlisten] removeJournalFiles
+2015-05-30T18:44:14.686-0400 I JOURNAL  [initandlisten] recover done
+2015-05-30T18:44:14.740-0400 I JOURNAL  [durability] Durability thread started
+2015-05-30T18:44:14.741-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2068 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] allocator: system
+2015-05-30T18:44:15.077-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-05-30T18:44:21.342-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-05-30T18:50:25.302-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49554 #1 (1 connection now open)
+2015-05-30T18:50:25.540-0400 I COMMAND  [conn1] command Brewing.$cmd command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: BinData(0, 6E2C2C6E3D70696B61696C6C652C723D6B2E70587C34496B24393C4F5833304A3E56264C) } keyUpdates:0 writeConflicts:0 numYields:0 reslen:167 locks:{ Global: { acquireCount: { r: 1 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { R: 1 } } } 117ms
+2015-05-30T18:50:26.102-0400 I COMMAND  [conn1] command Brewing.$cmd command: saslContinue { saslContinue: 1, conversationId: 1, payload: BinData(0, 633D626977732C723D6B2E70587C34496B24393C4F5833304A3E56264C487145697962646A4762484A55487A324D4333466C746C676D743274426A2B692C703D76534E744939...) } keyUpdates:0 writeConflicts:0 numYields:0 reslen:108 locks:{} 369ms
+2015-05-30T18:50:26.103-0400 I ACCESS   [conn1] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:50:26.125-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49555 #2 (2 connections now open)
+2015-05-30T18:50:26.292-0400 I ACCESS   [conn2] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T18:57:13.898-0400 I NETWORK  [conn1] end connection 127.0.0.1:49554 (1 connection now open)
+2015-05-30T18:57:13.898-0400 I NETWORK  [conn2] end connection 127.0.0.1:49555 (1 connection now open)
+2015-05-30T19:10:08.220-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50017 #3 (1 connection now open)
+2015-05-30T19:10:08.525-0400 I ACCESS   [conn3] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:10:08.545-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50018 #4 (2 connections now open)
+2015-05-30T19:10:08.707-0400 I ACCESS   [conn4] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:13:59.660-0400 I NETWORK  [conn4] end connection 127.0.0.1:50018 (1 connection now open)
+2015-05-30T19:13:59.660-0400 I NETWORK  [conn3] end connection 127.0.0.1:50017 (1 connection now open)
+2015-05-30T19:40:41.699-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50569 #5 (1 connection now open)
+2015-05-30T19:40:41.981-0400 I ACCESS   [conn5] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:40:42.001-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50570 #6 (2 connections now open)
+2015-05-30T19:40:42.163-0400 I ACCESS   [conn6] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:46:49.013-0400 I NETWORK  [conn5] end connection 127.0.0.1:50569 (1 connection now open)
+2015-05-30T19:46:49.013-0400 I NETWORK  [conn6] end connection 127.0.0.1:50570 (0 connections now open)
+2015-05-30T19:46:57.003-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50636 #7 (1 connection now open)
+2015-05-30T19:46:57.304-0400 I ACCESS   [conn7] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:46:57.323-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50637 #8 (2 connections now open)
+2015-05-30T19:46:57.498-0400 I ACCESS   [conn8] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:48:32.995-0400 I NETWORK  [conn7] end connection 127.0.0.1:50636 (1 connection now open)
+2015-05-30T19:48:32.996-0400 I NETWORK  [conn8] end connection 127.0.0.1:50637 (0 connections now open)
+2015-05-30T19:50:10.980-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50675 #9 (1 connection now open)
+2015-05-30T19:50:11.305-0400 I ACCESS   [conn9] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:50:11.325-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50676 #10 (2 connections now open)
+2015-05-30T19:50:11.479-0400 I ACCESS   [conn10] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:50:53.343-0400 I NETWORK  [conn9] end connection 127.0.0.1:50675 (1 connection now open)
+2015-05-30T19:50:53.343-0400 I NETWORK  [conn10] end connection 127.0.0.1:50676 (1 connection now open)
+2015-05-30T19:51:00.934-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50690 #11 (1 connection now open)
+2015-05-30T19:51:01.227-0400 I ACCESS   [conn11] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T19:51:01.247-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50691 #12 (2 connections now open)
+2015-05-30T19:51:01.402-0400 I ACCESS   [conn12] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T20:04:00.993-0400 I NETWORK  [conn12] end connection 127.0.0.1:50691 (1 connection now open)
+2015-05-30T20:09:36.678-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51020 #13 (2 connections now open)
+2015-05-30T20:09:36.827-0400 I ACCESS   [conn13] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T20:32:43.672-0400 I NETWORK  [conn11] end connection 127.0.0.1:50690 (1 connection now open)
+2015-05-30T20:32:43.673-0400 I NETWORK  [conn13] end connection 127.0.0.1:51020 (1 connection now open)
+2015-05-30T20:33:05.395-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51686 #14 (1 connection now open)
+2015-05-30T20:33:05.675-0400 I ACCESS   [conn14] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T20:33:05.695-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51687 #15 (2 connections now open)
+2015-05-30T20:33:05.844-0400 I ACCESS   [conn15] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T21:04:05.569-0400 I NETWORK  [conn15] end connection 127.0.0.1:51687 (1 connection now open)
+2015-05-30T21:20:08.286-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52646 #16 (2 connections now open)
+2015-05-30T21:20:08.428-0400 I ACCESS   [conn16] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T21:30:19.226-0400 I NETWORK  [conn16] end connection 127.0.0.1:52646 (1 connection now open)
+2015-05-30T21:30:19.227-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52839 #17 (2 connections now open)
+2015-05-30T21:30:19.382-0400 I ACCESS   [conn17] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T21:59:45.054-0400 I NETWORK  [conn17] end connection 127.0.0.1:52839 (1 connection now open)
+2015-05-30T21:59:45.059-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53627 #18 (2 connections now open)
+2015-05-30T21:59:45.218-0400 I ACCESS   [conn18] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T21:59:50.745-0400 I NETWORK  [conn14] end connection 127.0.0.1:51686 (1 connection now open)
+2015-05-30T21:59:50.746-0400 I NETWORK  [conn18] end connection 127.0.0.1:53627 (0 connections now open)
+2015-05-30T22:00:01.664-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53672 #19 (1 connection now open)
+2015-05-30T22:00:01.983-0400 I ACCESS   [conn19] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T22:00:02.002-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53674 #20 (2 connections now open)
+2015-05-30T22:00:02.179-0400 I ACCESS   [conn20] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T22:00:08.970-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53677 #21 (3 connections now open)
+2015-05-30T22:00:09.240-0400 I ACCESS   [conn21] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T22:11:48.286-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53808 #22 (4 connections now open)
+2015-05-30T22:20:42.963-0400 I NETWORK  [conn21] end connection 127.0.0.1:53677 (3 connections now open)
+2015-05-30T22:24:43.004-0400 I NETWORK  [conn20] end connection 127.0.0.1:53674 (2 connections now open)
+2015-05-30T22:26:21.432-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53995 #23 (3 connections now open)
+2015-05-30T22:26:21.603-0400 I ACCESS   [conn23] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T22:26:22.767-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53996 #24 (4 connections now open)
+2015-05-30T22:26:22.979-0400 I ACCESS   [conn24] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T22:41:43.113-0400 I NETWORK  [conn24] end connection 127.0.0.1:53996 (3 connections now open)
+2015-05-30T22:56:43.238-0400 I NETWORK  [conn23] end connection 127.0.0.1:53995 (2 connections now open)
+2015-05-30T23:04:25.922-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54878 #25 (3 connections now open)
+2015-05-30T23:04:26.089-0400 I ACCESS   [conn25] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T23:07:27.238-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54919 #26 (4 connections now open)
+2015-05-30T23:07:27.460-0400 I ACCESS   [conn26] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T23:21:43.411-0400 I NETWORK  [conn26] end connection 127.0.0.1:54919 (3 connections now open)
+2015-05-30T23:21:51.550-0400 I NETWORK  [conn25] end connection 127.0.0.1:54878 (2 connections now open)
+2015-05-30T23:21:51.550-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55103 #27 (3 connections now open)
+2015-05-30T23:21:51.711-0400 I ACCESS   [conn27] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T23:21:53.392-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55104 #28 (4 connections now open)
+2015-05-30T23:21:54.056-0400 I ACCESS   [conn28] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T23:45:43.523-0400 I NETWORK  [conn27] end connection 127.0.0.1:55103 (3 connections now open)
+2015-05-30T23:46:43.535-0400 I NETWORK  [conn28] end connection 127.0.0.1:55104 (2 connections now open)
+2015-05-30T23:46:48.798-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55199 #29 (3 connections now open)
+2015-05-30T23:46:48.979-0400 I ACCESS   [conn29] Successfully authenticated as principal pikaille on Brewing
+2015-05-30T23:48:32.990-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55201 #30 (4 connections now open)
+2015-05-30T23:48:33.195-0400 I ACCESS   [conn30] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:05:43.646-0400 I NETWORK  [conn29] end connection 127.0.0.1:55199 (3 connections now open)
+2015-05-31T00:06:43.648-0400 I NETWORK  [conn30] end connection 127.0.0.1:55201 (2 connections now open)
+2015-05-31T00:12:45.247-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55397 #31 (3 connections now open)
+2015-05-31T00:12:45.397-0400 I ACCESS   [conn31] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:13:48.168-0400 I NETWORK  [conn19] end connection 127.0.0.1:53672 (2 connections now open)
+2015-05-31T00:13:48.168-0400 I NETWORK  [conn31] end connection 127.0.0.1:55397 (1 connection now open)
+2015-05-31T00:13:57.631-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55410 #32 (2 connections now open)
+2015-05-31T00:13:57.923-0400 I ACCESS   [conn32] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:13:57.945-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55413 #33 (3 connections now open)
+2015-05-31T00:13:58.099-0400 I ACCESS   [conn33] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:17:22.955-0400 I NETWORK  [conn32] end connection 127.0.0.1:55410 (2 connections now open)
+2015-05-31T00:17:22.956-0400 I NETWORK  [conn33] end connection 127.0.0.1:55413 (1 connection now open)
+2015-05-31T00:18:17.836-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55520 #34 (2 connections now open)
+2015-05-31T00:18:18.136-0400 I ACCESS   [conn34] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:18:18.157-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55521 #35 (3 connections now open)
+2015-05-31T00:18:18.436-0400 I ACCESS   [conn35] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:26:16.602-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55534 #36 (4 connections now open)
+2015-05-31T00:26:16.774-0400 I ACCESS   [conn36] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T00:36:17.960-0400 I NETWORK  [conn35] end connection 127.0.0.1:55521 (3 connections now open)
+2015-05-31T00:37:17.961-0400 I NETWORK  [conn36] end connection 127.0.0.1:55534 (2 connections now open)
+2015-05-31T11:17:45.423-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57706 #37 (3 connections now open)
+2015-05-31T11:17:45.622-0400 I ACCESS   [conn37] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T11:28:21.944-0400 I NETWORK  [conn37] end connection 127.0.0.1:57706 (2 connections now open)
+2015-05-31T12:18:22.689-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57972 #38 (3 connections now open)
+2015-05-31T12:18:22.885-0400 I ACCESS   [conn38] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T12:23:27.820-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57977 #39 (4 connections now open)
+2015-05-31T12:23:28.004-0400 I ACCESS   [conn39] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T12:48:31.411-0400 I NETWORK  [conn38] end connection 127.0.0.1:57972 (3 connections now open)
+2015-05-31T12:48:31.412-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58198 #40 (4 connections now open)
+2015-05-31T12:48:31.606-0400 I ACCESS   [conn40] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T12:53:28.240-0400 I NETWORK  [conn39] end connection 127.0.0.1:57977 (3 connections now open)
+2015-05-31T12:53:28.241-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58221 #41 (4 connections now open)
+2015-05-31T12:53:28.425-0400 I ACCESS   [conn41] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T13:11:22.507-0400 I NETWORK  [conn41] end connection 127.0.0.1:58221 (3 connections now open)
+2015-05-31T13:12:22.521-0400 I NETWORK  [conn40] end connection 127.0.0.1:58198 (2 connections now open)
+2015-05-31T19:47:24.416-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59352 #42 (3 connections now open)
+2015-05-31T19:47:24.615-0400 I ACCESS   [conn42] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T19:58:25.910-0400 I NETWORK  [conn42] end connection 127.0.0.1:59352 (2 connections now open)
+2015-05-31T19:59:48.827-0400 I NETWORK  [conn34] end connection 127.0.0.1:55520 (1 connection now open)
+2015-05-31T20:00:03.012-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59473 #43 (2 connections now open)
+2015-05-31T20:00:03.287-0400 I ACCESS   [conn43] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:00:03.306-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59474 #44 (3 connections now open)
+2015-05-31T20:00:03.461-0400 I ACCESS   [conn44] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:00:06.024-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59475 #45 (4 connections now open)
+2015-05-31T20:00:06.202-0400 I ACCESS   [conn45] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:22:24.076-0400 I NETWORK  [conn43] end connection 127.0.0.1:59473 (3 connections now open)
+2015-05-31T20:22:24.076-0400 I NETWORK  [conn45] end connection 127.0.0.1:59475 (3 connections now open)
+2015-05-31T20:22:24.076-0400 I NETWORK  [conn44] end connection 127.0.0.1:59474 (3 connections now open)
+2015-05-31T20:22:29.175-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59677 #46 (2 connections now open)
+2015-05-31T20:22:29.476-0400 I ACCESS   [conn46] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:22:29.512-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59678 #47 (3 connections now open)
+2015-05-31T20:22:29.720-0400 I ACCESS   [conn47] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:22:31.928-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59679 #48 (4 connections now open)
+2015-05-31T20:22:32.085-0400 I ACCESS   [conn48] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:39:52.581-0400 I NETWORK  [conn48] end connection 127.0.0.1:59679 (3 connections now open)
+2015-05-31T20:39:52.582-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59770 #49 (4 connections now open)
+2015-05-31T20:39:52.670-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59771 #50 (5 connections now open)
+2015-05-31T20:39:56.023-0400 I ACCESS   [conn49] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:39:56.042-0400 I ACCESS   [conn50] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:50:52.661-0400 I NETWORK  [conn47] end connection 127.0.0.1:59678 (4 connections now open)
+2015-05-31T20:51:01.290-0400 I NETWORK  [conn50] end connection 127.0.0.1:59771 (3 connections now open)
+2015-05-31T20:51:01.291-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59798 #51 (4 connections now open)
+2015-05-31T20:51:01.455-0400 I ACCESS   [conn51] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:51:04.757-0400 I NETWORK  [conn49] end connection 127.0.0.1:59770 (3 connections now open)
+2015-05-31T20:51:04.758-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59799 #52 (4 connections now open)
+2015-05-31T20:51:04.985-0400 I ACCESS   [conn52] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:55:11.445-0400 I NETWORK  [conn46] end connection 127.0.0.1:59677 (3 connections now open)
+2015-05-31T20:55:11.445-0400 I NETWORK  [conn52] end connection 127.0.0.1:59799 (2 connections now open)
+2015-05-31T20:55:11.445-0400 I NETWORK  [conn51] end connection 127.0.0.1:59798 (2 connections now open)
+2015-05-31T20:55:28.857-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59846 #53 (2 connections now open)
+2015-05-31T20:55:29.133-0400 I ACCESS   [conn53] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:55:29.152-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59847 #54 (3 connections now open)
+2015-05-31T20:55:29.433-0400 I ACCESS   [conn54] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T20:56:27.114-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59848 #55 (4 connections now open)
+2015-05-31T20:56:27.272-0400 I ACCESS   [conn55] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:07:35.703-0400 I NETWORK  [conn53] end connection 127.0.0.1:59846 (3 connections now open)
+2015-05-31T21:07:35.704-0400 I NETWORK  [conn54] end connection 127.0.0.1:59847 (2 connections now open)
+2015-05-31T21:07:35.704-0400 I NETWORK  [conn55] end connection 127.0.0.1:59848 (2 connections now open)
+2015-05-31T21:16:06.868-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60029 #56 (2 connections now open)
+2015-05-31T21:16:07.150-0400 I ACCESS   [conn56] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:16:07.177-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60030 #57 (3 connections now open)
+2015-05-31T21:16:07.686-0400 I ACCESS   [conn57] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:16:10.948-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60031 #58 (4 connections now open)
+2015-05-31T21:16:11.172-0400 I ACCESS   [conn58] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:32:26.456-0400 I NETWORK  [conn56] end connection 127.0.0.1:60029 (3 connections now open)
+2015-05-31T21:32:26.457-0400 I NETWORK  [conn57] end connection 127.0.0.1:60030 (2 connections now open)
+2015-05-31T21:32:26.457-0400 I NETWORK  [conn58] end connection 127.0.0.1:60031 (1 connection now open)
+2015-05-31T21:32:34.301-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60084 #59 (2 connections now open)
+2015-05-31T21:32:34.572-0400 I ACCESS   [conn59] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:32:34.599-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60085 #60 (3 connections now open)
+2015-05-31T21:32:34.771-0400 I ACCESS   [conn60] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:32:37.685-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60087 #61 (4 connections now open)
+2015-05-31T21:32:37.836-0400 I ACCESS   [conn61] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:47:04.509-0400 I NETWORK  [conn60] end connection 127.0.0.1:60085 (3 connections now open)
+2015-05-31T21:48:04.520-0400 I NETWORK  [conn61] end connection 127.0.0.1:60087 (2 connections now open)
+2015-05-31T21:50:48.754-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61348 #62 (3 connections now open)
+2015-05-31T21:50:48.978-0400 I ACCESS   [conn62] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:50:52.994-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61350 #63 (4 connections now open)
+2015-05-31T21:50:53.155-0400 I ACCESS   [conn63] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:55:29.803-0400 I NETWORK  [conn59] end connection 127.0.0.1:60084 (3 connections now open)
+2015-05-31T21:55:29.804-0400 I NETWORK  [conn62] end connection 127.0.0.1:61348 (2 connections now open)
+2015-05-31T21:55:29.804-0400 I NETWORK  [conn63] end connection 127.0.0.1:61350 (1 connection now open)
+2015-05-31T21:55:56.734-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61440 #64 (2 connections now open)
+2015-05-31T21:55:57.057-0400 I ACCESS   [conn64] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:55:57.085-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61441 #65 (3 connections now open)
+2015-05-31T21:55:57.245-0400 I ACCESS   [conn65] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:55:58.538-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61442 #66 (4 connections now open)
+2015-05-31T21:55:58.692-0400 I ACCESS   [conn66] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:57:05.073-0400 I NETWORK  [conn64] end connection 127.0.0.1:61440 (3 connections now open)
+2015-05-31T21:57:05.073-0400 I NETWORK  [conn65] end connection 127.0.0.1:61441 (3 connections now open)
+2015-05-31T21:57:05.073-0400 I NETWORK  [conn66] end connection 127.0.0.1:61442 (3 connections now open)
+2015-05-31T21:57:12.211-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61458 #67 (2 connections now open)
+2015-05-31T21:57:12.538-0400 I ACCESS   [conn67] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:57:12.560-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61459 #68 (3 connections now open)
+2015-05-31T21:57:12.815-0400 I ACCESS   [conn68] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T21:57:14.501-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61460 #69 (4 connections now open)
+2015-05-31T21:57:14.670-0400 I ACCESS   [conn69] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:03:18.086-0400 I NETWORK  [conn67] end connection 127.0.0.1:61458 (3 connections now open)
+2015-05-31T22:03:18.086-0400 I NETWORK  [conn68] end connection 127.0.0.1:61459 (3 connections now open)
+2015-05-31T22:03:18.087-0400 I NETWORK  [conn69] end connection 127.0.0.1:61460 (3 connections now open)
+2015-05-31T22:03:25.668-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61647 #70 (2 connections now open)
+2015-05-31T22:03:25.953-0400 I ACCESS   [conn70] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:03:25.983-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61648 #71 (3 connections now open)
+2015-05-31T22:03:27.112-0400 I ACCESS   [conn71] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:03:28.072-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61649 #72 (4 connections now open)
+2015-05-31T22:03:28.217-0400 I ACCESS   [conn72] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:27:11.171-0400 I NETWORK  [conn70] end connection 127.0.0.1:61647 (3 connections now open)
+2015-05-31T22:27:11.171-0400 I NETWORK  [conn71] end connection 127.0.0.1:61648 (2 connections now open)
+2015-05-31T22:27:11.171-0400 I NETWORK  [conn72] end connection 127.0.0.1:61649 (1 connection now open)
+2015-05-31T22:31:14.753-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61916 #73 (2 connections now open)
+2015-05-31T22:31:15.077-0400 I ACCESS   [conn73] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:31:20.830-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61924 #74 (3 connections now open)
+2015-05-31T22:31:21.000-0400 I ACCESS   [conn74] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:31:22.761-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61925 #75 (4 connections now open)
+2015-05-31T22:31:22.927-0400 I ACCESS   [conn75] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:32:03.671-0400 I NETWORK  [conn73] end connection 127.0.0.1:61916 (3 connections now open)
+2015-05-31T22:32:03.672-0400 I NETWORK  [conn75] end connection 127.0.0.1:61925 (3 connections now open)
+2015-05-31T22:32:03.672-0400 I NETWORK  [conn74] end connection 127.0.0.1:61924 (1 connection now open)
+2015-05-31T22:32:11.626-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61937 #76 (2 connections now open)
+2015-05-31T22:32:11.928-0400 I ACCESS   [conn76] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:32:11.953-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61938 #77 (3 connections now open)
+2015-05-31T22:32:12.907-0400 I ACCESS   [conn77] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:32:13.875-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61939 #78 (4 connections now open)
+2015-05-31T22:32:14.042-0400 I ACCESS   [conn78] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:33:47.079-0400 I NETWORK  [conn77] end connection 127.0.0.1:61938 (3 connections now open)
+2015-05-31T22:33:47.079-0400 I NETWORK  [conn76] end connection 127.0.0.1:61937 (3 connections now open)
+2015-05-31T22:33:47.079-0400 I NETWORK  [conn78] end connection 127.0.0.1:61939 (3 connections now open)
+2015-05-31T22:34:09.010-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61952 #79 (2 connections now open)
+2015-05-31T22:34:09.323-0400 I ACCESS   [conn79] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:36:18.299-0400 I NETWORK  [conn79] end connection 127.0.0.1:61952 (1 connection now open)
+2015-05-31T22:36:25.766-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61970 #80 (2 connections now open)
+2015-05-31T22:36:26.105-0400 I ACCESS   [conn80] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:36:44.182-0400 I NETWORK  [conn80] end connection 127.0.0.1:61970 (1 connection now open)
+2015-05-31T22:37:54.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62069 #81 (2 connections now open)
+2015-05-31T22:38:33.688-0400 I NETWORK  [conn81] end connection 127.0.0.1:62069 (1 connection now open)
+2015-05-31T22:38:52.492-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62080 #82 (2 connections now open)
+2015-05-31T22:38:52.818-0400 I ACCESS   [conn82] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:38:52.838-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62081 #83 (3 connections now open)
+2015-05-31T22:38:53.725-0400 I ACCESS   [conn83] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:39:17.208-0400 I NETWORK  [conn82] end connection 127.0.0.1:62080 (2 connections now open)
+2015-05-31T22:39:17.208-0400 I NETWORK  [conn83] end connection 127.0.0.1:62081 (1 connection now open)
+2015-05-31T22:39:22.772-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62092 #84 (2 connections now open)
+2015-05-31T22:39:33.712-0400 I ACCESS   [conn84] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:44:55.876-0400 I NETWORK  [conn84] end connection 127.0.0.1:62092 (1 connection now open)
+2015-05-31T22:45:02.714-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62109 #85 (2 connections now open)
+2015-05-31T22:45:03.056-0400 I ACCESS   [conn85] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:53:08.959-0400 I NETWORK  [conn85] end connection 127.0.0.1:62109 (1 connection now open)
+2015-05-31T22:54:06.541-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62282 #86 (2 connections now open)
+2015-05-31T22:54:06.926-0400 I ACCESS   [conn86] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:54:06.951-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62283 #87 (3 connections now open)
+2015-05-31T22:54:07.120-0400 I ACCESS   [conn87] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T22:54:10.433-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62284 #88 (4 connections now open)
+2015-05-31T22:54:10.595-0400 I ACCESS   [conn88] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T23:12:06.679-0400 I NETWORK  [conn88] end connection 127.0.0.1:62284 (3 connections now open)
+2015-05-31T23:13:06.695-0400 I NETWORK  [conn87] end connection 127.0.0.1:62283 (2 connections now open)
+2015-05-31T23:13:54.145-0400 I NETWORK  [conn86] end connection 127.0.0.1:62282 (1 connection now open)
+2015-05-31T23:30:21.590-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62622 #89 (2 connections now open)
+2015-05-31T23:30:21.899-0400 I ACCESS   [conn89] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T23:30:21.921-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62623 #90 (3 connections now open)
+2015-05-31T23:30:22.566-0400 I ACCESS   [conn90] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T23:30:23.932-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62624 #91 (4 connections now open)
+2015-05-31T23:30:24.093-0400 I ACCESS   [conn91] Successfully authenticated as principal pikaille on Brewing
+2015-05-31T23:55:21.758-0400 I NETWORK  [conn90] end connection 127.0.0.1:62623 (3 connections now open)
+2015-05-31T23:56:21.770-0400 I NETWORK  [conn91] end connection 127.0.0.1:62624 (2 connections now open)
+2015-06-01T00:00:10.619-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62875 #92 (3 connections now open)
+2015-06-01T00:00:10.789-0400 I ACCESS   [conn92] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T00:00:13.891-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62876 #93 (4 connections now open)
+2015-06-01T00:00:14.050-0400 I ACCESS   [conn93] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T00:30:22.066-0400 I NETWORK  [conn92] end connection 127.0.0.1:62875 (3 connections now open)
+2015-06-01T00:31:22.081-0400 I NETWORK  [conn93] end connection 127.0.0.1:62876 (2 connections now open)
+2015-06-01T00:32:11.700-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63073 #94 (3 connections now open)
+2015-06-01T00:32:11.900-0400 I ACCESS   [conn94] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T00:32:14.700-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63074 #95 (4 connections now open)
+2015-06-01T00:32:14.865-0400 I ACCESS   [conn95] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:02:22.285-0400 I NETWORK  [conn94] end connection 127.0.0.1:63073 (3 connections now open)
+2015-06-01T01:03:22.294-0400 I NETWORK  [conn95] end connection 127.0.0.1:63074 (2 connections now open)
+2015-06-01T01:04:45.791-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63545 #96 (3 connections now open)
+2015-06-01T01:04:46.059-0400 I ACCESS   [conn96] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:04:47.847-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63547 #97 (4 connections now open)
+2015-06-01T01:04:48.010-0400 I ACCESS   [conn97] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:17:24.881-0400 I NETWORK  [conn97] end connection 127.0.0.1:63547 (3 connections now open)
+2015-06-01T01:18:24.895-0400 I NETWORK  [conn96] end connection 127.0.0.1:63545 (2 connections now open)
+2015-06-01T01:22:10.502-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64056 #98 (3 connections now open)
+2015-06-01T01:22:10.701-0400 I ACCESS   [conn98] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:22:23.542-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64059 #99 (4 connections now open)
+2015-06-01T01:22:23.724-0400 I ACCESS   [conn99] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:45:25.021-0400 I NETWORK  [conn99] end connection 127.0.0.1:64059 (3 connections now open)
+2015-06-01T01:48:25.051-0400 I NETWORK  [conn98] end connection 127.0.0.1:64056 (2 connections now open)
+2015-06-01T01:48:38.593-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64168 #100 (3 connections now open)
+2015-06-01T01:48:38.753-0400 I ACCESS   [conn100] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T01:59:25.082-0400 I NETWORK  [conn100] end connection 127.0.0.1:64168 (2 connections now open)
+2015-06-01T21:18:47.859-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65397 #101 (3 connections now open)
+2015-06-01T21:18:47.860-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65398 #102 (4 connections now open)
+2015-06-01T21:18:48.244-0400 I ACCESS   [conn102] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T21:18:48.252-0400 I ACCESS   [conn101] Successfully authenticated as principal pikaille on Brewing
+2015-06-01T21:32:44.557-0400 I NETWORK  [conn89] end connection 127.0.0.1:62622 (3 connections now open)
+2015-06-01T21:32:44.557-0400 I NETWORK  [conn102] end connection 127.0.0.1:65398 (2 connections now open)
+2015-06-01T21:32:44.755-0400 I NETWORK  [conn101] end connection 127.0.0.1:65397 (1 connection now open)
+2015-06-01T21:32:54.966-0400 I NETWORK  [conn22] end connection 127.0.0.1:53808 (0 connections now open)
+2015-06-02T21:15:49.557-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51449 #103 (1 connection now open)
+2015-06-02T21:15:49.879-0400 I ACCESS   [conn103] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T21:15:49.900-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51450 #104 (2 connections now open)
+2015-06-02T21:15:50.065-0400 I ACCESS   [conn104] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T21:15:53.329-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51451 #105 (3 connections now open)
+2015-06-02T21:15:58.612-0400 I ACCESS   [conn105] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T21:46:49.727-0400 I NETWORK  [conn104] end connection 127.0.0.1:51450 (2 connections now open)
+2015-06-02T21:47:45.688-0400 I NETWORK  [conn105] end connection 127.0.0.1:51451 (1 connection now open)
+2015-06-02T21:47:45.690-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51677 #106 (2 connections now open)
+2015-06-02T21:47:45.901-0400 I ACCESS   [conn106] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T21:47:48.905-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51678 #107 (3 connections now open)
+2015-06-02T21:47:49.086-0400 I ACCESS   [conn107] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:07:49.912-0400 I NETWORK  [conn107] end connection 127.0.0.1:51678 (2 connections now open)
+2015-06-02T22:08:49.926-0400 I NETWORK  [conn106] end connection 127.0.0.1:51677 (1 connection now open)
+2015-06-02T22:35:16.119-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52044 #108 (2 connections now open)
+2015-06-02T22:35:16.287-0400 I ACCESS   [conn108] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:35:17.895-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52045 #109 (3 connections now open)
+2015-06-02T22:35:18.063-0400 I ACCESS   [conn109] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:42:06.405-0400 I NETWORK  [conn103] end connection 127.0.0.1:51449 (2 connections now open)
+2015-06-02T22:42:06.406-0400 I NETWORK  [conn109] end connection 127.0.0.1:52045 (1 connection now open)
+2015-06-02T22:42:06.406-0400 I NETWORK  [conn108] end connection 127.0.0.1:52044 (1 connection now open)
+2015-06-02T22:43:48.082-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52090 #110 (1 connection now open)
+2015-06-02T22:43:48.396-0400 I ACCESS   [conn110] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:43:48.421-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52091 #111 (2 connections now open)
+2015-06-02T22:43:48.575-0400 I ACCESS   [conn111] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:43:51.961-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52092 #112 (3 connections now open)
+2015-06-02T22:43:52.105-0400 I ACCESS   [conn112] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T22:54:48.137-0400 I NETWORK  [conn112] end connection 127.0.0.1:52092 (2 connections now open)
+2015-06-02T22:55:48.150-0400 I NETWORK  [conn111] end connection 127.0.0.1:52091 (1 connection now open)
+2015-06-02T23:14:54.474-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52320 #113 (2 connections now open)
+2015-06-02T23:14:54.637-0400 I ACCESS   [conn113] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:17:30.398-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52368 #114 (3 connections now open)
+2015-06-02T23:17:30.676-0400 I ACCESS   [conn114] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:30:48.365-0400 I NETWORK  [conn114] end connection 127.0.0.1:52368 (2 connections now open)
+2015-06-02T23:31:48.380-0400 I NETWORK  [conn113] end connection 127.0.0.1:52320 (1 connection now open)
+2015-06-02T23:33:38.207-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52830 #115 (2 connections now open)
+2015-06-02T23:33:38.378-0400 I ACCESS   [conn115] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:33:51.022-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52831 #116 (3 connections now open)
+2015-06-02T23:33:51.203-0400 I ACCESS   [conn116] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:35:15.514-0400 I NETWORK  [conn110] end connection 127.0.0.1:52090 (2 connections now open)
+2015-06-02T23:35:15.514-0400 I NETWORK  [conn116] end connection 127.0.0.1:52831 (1 connection now open)
+2015-06-02T23:35:15.514-0400 I NETWORK  [conn115] end connection 127.0.0.1:52830 (0 connections now open)
+2015-06-02T23:35:25.863-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52852 #117 (1 connection now open)
+2015-06-02T23:35:26.137-0400 I ACCESS   [conn117] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:35:26.158-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52853 #118 (2 connections now open)
+2015-06-02T23:35:26.780-0400 I ACCESS   [conn118] Successfully authenticated as principal pikaille on Brewing
+2015-06-02T23:37:50.933-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52861 #119 (3 connections now open)
+2015-06-02T23:37:50.937-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52862 #120 (4 connections now open)
+2015-06-02T23:37:50.973-0400 I COMMAND  [conn120] CMD: drop Brewing.Recipe
+2015-06-02T23:37:51.068-0400 I COMMAND  [conn120] command Brewing.$cmd command: drop { drop: "Recipe" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:77 locks:{ Global: { acquireCount: { w: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 60 } }, Database: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 2 } } } 130ms
+2015-06-02T23:37:51.127-0400 I COMMAND  [conn120] CMD: drop Brewing.Batch
+2015-06-02T23:37:51.267-0400 I COMMAND  [conn120] command Brewing.$cmd command: createUser { createUser: "pikaille", pwd: "xxx", customData: {}, roles: [ { role: "readWrite", db: "Brewing" } ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 30000.0 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:98 locks:{ Global: { acquireCount: { w: 3 } }, MMAPV1Journal: { acquireCount: { w: 4 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 5602 } }, Database: { acquireCount: { W: 3 } }, Collection: { acquireCount: { W: 3 } } } 126ms
+2015-06-02T23:37:51.292-0400 I NETWORK  [conn119] end connection 127.0.0.1:52861 (3 connections now open)
+2015-06-02T23:37:51.292-0400 I NETWORK  [conn120] end connection 127.0.0.1:52862 (3 connections now open)
+2015-06-02T23:38:02.741-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52865 #121 (3 connections now open)
+2015-06-02T23:38:02.910-0400 I ACCESS   [conn121] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T00:06:26.115-0400 I NETWORK  [conn118] end connection 127.0.0.1:52853 (2 connections now open)
+2015-06-03T00:08:26.131-0400 I NETWORK  [conn121] end connection 127.0.0.1:52865 (1 connection now open)
+2015-06-03T00:11:25.962-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53087 #122 (2 connections now open)
+2015-06-03T00:11:26.131-0400 I ACCESS   [conn122] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T00:12:04.707-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53090 #123 (3 connections now open)
+2015-06-03T00:12:04.888-0400 I ACCESS   [conn123] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T00:29:26.302-0400 I NETWORK  [conn123] end connection 127.0.0.1:53090 (2 connections now open)
+2015-06-03T00:41:26.379-0400 I NETWORK  [conn122] end connection 127.0.0.1:53087 (1 connection now open)
+2015-06-03T00:41:53.120-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53302 #124 (2 connections now open)
+2015-06-03T00:41:53.297-0400 I ACCESS   [conn124] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T00:59:29.125-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53357 #125 (3 connections now open)
+2015-06-03T00:59:29.290-0400 I ACCESS   [conn125] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T01:12:26.529-0400 I NETWORK  [conn124] end connection 127.0.0.1:53302 (2 connections now open)
+2015-06-03T01:15:38.903-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53474 #126 (3 connections now open)
+2015-06-03T01:15:39.064-0400 I ACCESS   [conn126] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T01:29:32.730-0400 I NETWORK  [conn125] end connection 127.0.0.1:53357 (2 connections now open)
+2015-06-03T01:29:32.732-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53660 #127 (3 connections now open)
+2015-06-03T01:29:32.908-0400 I ACCESS   [conn127] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T01:45:39.060-0400 I NETWORK  [conn126] end connection 127.0.0.1:53474 (2 connections now open)
+2015-06-03T01:45:39.060-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53685 #128 (3 connections now open)
+2015-06-03T01:45:39.239-0400 I ACCESS   [conn128] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T01:59:33.417-0400 I NETWORK  [conn127] end connection 127.0.0.1:53660 (2 connections now open)
+2015-06-03T01:59:33.418-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53707 #129 (3 connections now open)
+2015-06-03T01:59:33.580-0400 I ACCESS   [conn129] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T02:15:39.751-0400 I NETWORK  [conn128] end connection 127.0.0.1:53685 (2 connections now open)
+2015-06-03T02:15:39.752-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53739 #130 (3 connections now open)
+2015-06-03T02:15:39.913-0400 I ACCESS   [conn130] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T02:29:34.017-0400 I NETWORK  [conn129] end connection 127.0.0.1:53707 (2 connections now open)
+2015-06-03T02:29:34.018-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53761 #131 (3 connections now open)
+2015-06-03T02:29:34.180-0400 I ACCESS   [conn131] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T02:45:40.368-0400 I NETWORK  [conn130] end connection 127.0.0.1:53739 (2 connections now open)
+2015-06-03T02:45:40.370-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53792 #132 (3 connections now open)
+2015-06-03T02:45:40.539-0400 I ACCESS   [conn132] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T02:59:34.667-0400 I NETWORK  [conn131] end connection 127.0.0.1:53761 (2 connections now open)
+2015-06-03T02:59:34.669-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53814 #133 (3 connections now open)
+2015-06-03T02:59:34.824-0400 I ACCESS   [conn133] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T03:15:41.027-0400 I NETWORK  [conn132] end connection 127.0.0.1:53792 (2 connections now open)
+2015-06-03T03:15:41.028-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53851 #134 (3 connections now open)
+2015-06-03T03:15:41.193-0400 I ACCESS   [conn134] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T03:29:37.321-0400 I NETWORK  [conn133] end connection 127.0.0.1:53814 (2 connections now open)
+2015-06-03T03:29:37.322-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53873 #135 (3 connections now open)
+2015-06-03T03:29:37.479-0400 I ACCESS   [conn135] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T03:45:41.665-0400 I NETWORK  [conn134] end connection 127.0.0.1:53851 (2 connections now open)
+2015-06-03T03:45:41.667-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53902 #136 (3 connections now open)
+2015-06-03T03:45:41.831-0400 I ACCESS   [conn136] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T03:59:37.954-0400 I NETWORK  [conn135] end connection 127.0.0.1:53873 (2 connections now open)
+2015-06-03T03:59:37.954-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53919 #137 (3 connections now open)
+2015-06-03T03:59:38.119-0400 I ACCESS   [conn137] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T04:15:42.304-0400 I NETWORK  [conn136] end connection 127.0.0.1:53902 (2 connections now open)
+2015-06-03T04:15:42.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53949 #138 (3 connections now open)
+2015-06-03T04:15:42.464-0400 I ACCESS   [conn138] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T04:29:38.576-0400 I NETWORK  [conn137] end connection 127.0.0.1:53919 (2 connections now open)
+2015-06-03T04:29:38.577-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53965 #139 (3 connections now open)
+2015-06-03T04:29:38.738-0400 I ACCESS   [conn139] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T04:45:42.901-0400 I NETWORK  [conn138] end connection 127.0.0.1:53949 (2 connections now open)
+2015-06-03T04:45:42.903-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53991 #140 (3 connections now open)
+2015-06-03T04:45:43.059-0400 I ACCESS   [conn140] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T04:59:39.300-0400 I NETWORK  [conn139] end connection 127.0.0.1:53965 (2 connections now open)
+2015-06-03T04:59:39.300-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54039 #141 (3 connections now open)
+2015-06-03T04:59:39.450-0400 I ACCESS   [conn141] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T05:15:43.757-0400 I NETWORK  [conn140] end connection 127.0.0.1:53991 (2 connections now open)
+2015-06-03T05:15:43.759-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54077 #142 (3 connections now open)
+2015-06-03T05:15:43.928-0400 I ACCESS   [conn142] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T05:29:40.049-0400 I NETWORK  [conn141] end connection 127.0.0.1:54039 (2 connections now open)
+2015-06-03T05:29:40.051-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54095 #143 (3 connections now open)
+2015-06-03T05:29:40.211-0400 I ACCESS   [conn143] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T05:45:44.394-0400 I NETWORK  [conn142] end connection 127.0.0.1:54077 (2 connections now open)
+2015-06-03T05:45:44.395-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54127 #144 (3 connections now open)
+2015-06-03T05:45:44.554-0400 I ACCESS   [conn144] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T05:59:40.708-0400 I NETWORK  [conn143] end connection 127.0.0.1:54095 (2 connections now open)
+2015-06-03T05:59:40.709-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54147 #145 (3 connections now open)
+2015-06-03T05:59:40.875-0400 I ACCESS   [conn145] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T06:15:45.047-0400 I NETWORK  [conn144] end connection 127.0.0.1:54127 (2 connections now open)
+2015-06-03T06:15:45.050-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54183 #146 (3 connections now open)
+2015-06-03T06:15:45.208-0400 I ACCESS   [conn146] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T06:29:41.335-0400 I NETWORK  [conn145] end connection 127.0.0.1:54147 (2 connections now open)
+2015-06-03T06:29:41.337-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54208 #147 (3 connections now open)
+2015-06-03T06:29:41.501-0400 I ACCESS   [conn147] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T06:45:45.668-0400 I NETWORK  [conn146] end connection 127.0.0.1:54183 (2 connections now open)
+2015-06-03T06:45:45.669-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54234 #148 (3 connections now open)
+2015-06-03T06:45:45.823-0400 I ACCESS   [conn148] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T06:59:41.966-0400 I NETWORK  [conn147] end connection 127.0.0.1:54208 (2 connections now open)
+2015-06-03T06:59:41.969-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54252 #149 (3 connections now open)
+2015-06-03T06:59:42.142-0400 I ACCESS   [conn149] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T07:15:46.341-0400 I NETWORK  [conn148] end connection 127.0.0.1:54234 (2 connections now open)
+2015-06-03T07:15:46.342-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54290 #150 (3 connections now open)
+2015-06-03T07:15:46.494-0400 I ACCESS   [conn150] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T07:29:42.639-0400 I NETWORK  [conn149] end connection 127.0.0.1:54252 (2 connections now open)
+2015-06-03T07:29:42.641-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54312 #151 (3 connections now open)
+2015-06-03T07:29:43.043-0400 I ACCESS   [conn151] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T07:45:46.969-0400 I NETWORK  [conn150] end connection 127.0.0.1:54290 (2 connections now open)
+2015-06-03T07:45:46.971-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54353 #152 (3 connections now open)
+2015-06-03T07:45:47.141-0400 I ACCESS   [conn152] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T07:59:43.265-0400 I NETWORK  [conn151] end connection 127.0.0.1:54312 (2 connections now open)
+2015-06-03T07:59:43.267-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54370 #153 (3 connections now open)
+2015-06-03T07:59:43.427-0400 I ACCESS   [conn153] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T08:15:49.616-0400 I NETWORK  [conn152] end connection 127.0.0.1:54353 (2 connections now open)
+2015-06-03T08:15:49.617-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54404 #154 (3 connections now open)
+2015-06-03T08:15:49.781-0400 I ACCESS   [conn154] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T08:29:43.874-0400 I NETWORK  [conn153] end connection 127.0.0.1:54370 (2 connections now open)
+2015-06-03T08:29:43.875-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54418 #155 (3 connections now open)
+2015-06-03T08:29:44.032-0400 I ACCESS   [conn155] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T08:45:50.222-0400 I NETWORK  [conn154] end connection 127.0.0.1:54404 (2 connections now open)
+2015-06-03T08:45:50.223-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54452 #156 (3 connections now open)
+2015-06-03T08:45:50.377-0400 I ACCESS   [conn156] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T08:59:44.498-0400 I NETWORK  [conn155] end connection 127.0.0.1:54418 (2 connections now open)
+2015-06-03T08:59:44.498-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54468 #157 (3 connections now open)
+2015-06-03T08:59:44.651-0400 I ACCESS   [conn157] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T09:15:50.877-0400 I NETWORK  [conn156] end connection 127.0.0.1:54452 (2 connections now open)
+2015-06-03T09:15:50.880-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54508 #158 (3 connections now open)
+2015-06-03T09:15:51.039-0400 I ACCESS   [conn158] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T09:29:45.180-0400 I NETWORK  [conn157] end connection 127.0.0.1:54468 (2 connections now open)
+2015-06-03T09:29:45.181-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54523 #159 (3 connections now open)
+2015-06-03T09:29:45.344-0400 I ACCESS   [conn159] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T09:45:51.555-0400 I NETWORK  [conn158] end connection 127.0.0.1:54508 (2 connections now open)
+2015-06-03T09:45:51.556-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54554 #160 (3 connections now open)
+2015-06-03T09:45:51.726-0400 I ACCESS   [conn160] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T09:59:45.863-0400 I NETWORK  [conn159] end connection 127.0.0.1:54523 (2 connections now open)
+2015-06-03T09:59:45.863-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54573 #161 (3 connections now open)
+2015-06-03T09:59:46.009-0400 I ACCESS   [conn161] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T10:15:52.166-0400 I NETWORK  [conn160] end connection 127.0.0.1:54554 (2 connections now open)
+2015-06-03T10:15:52.167-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54601 #162 (3 connections now open)
+2015-06-03T10:15:52.334-0400 I ACCESS   [conn162] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T10:29:46.494-0400 I NETWORK  [conn161] end connection 127.0.0.1:54573 (2 connections now open)
+2015-06-03T10:29:46.497-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54616 #163 (3 connections now open)
+2015-06-03T10:29:46.661-0400 I ACCESS   [conn163] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T10:45:52.822-0400 I NETWORK  [conn162] end connection 127.0.0.1:54601 (2 connections now open)
+2015-06-03T10:45:52.823-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54643 #164 (3 connections now open)
+2015-06-03T10:45:52.993-0400 I ACCESS   [conn164] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T10:59:47.094-0400 I NETWORK  [conn163] end connection 127.0.0.1:54616 (2 connections now open)
+2015-06-03T10:59:47.095-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54690 #165 (3 connections now open)
+2015-06-03T10:59:47.253-0400 I ACCESS   [conn165] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T11:15:53.447-0400 I NETWORK  [conn164] end connection 127.0.0.1:54643 (2 connections now open)
+2015-06-03T11:15:53.448-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54723 #166 (3 connections now open)
+2015-06-03T11:15:53.617-0400 I ACCESS   [conn166] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T11:29:49.731-0400 I NETWORK  [conn165] end connection 127.0.0.1:54690 (2 connections now open)
+2015-06-03T11:29:49.733-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54744 #167 (3 connections now open)
+2015-06-03T11:29:49.898-0400 I ACCESS   [conn167] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T11:45:54.076-0400 I NETWORK  [conn166] end connection 127.0.0.1:54723 (2 connections now open)
+2015-06-03T11:45:54.077-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54771 #168 (3 connections now open)
+2015-06-03T11:45:54.248-0400 I ACCESS   [conn168] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T11:59:52.417-0400 I NETWORK  [conn167] end connection 127.0.0.1:54744 (2 connections now open)
+2015-06-03T11:59:52.419-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54790 #169 (3 connections now open)
+2015-06-03T11:59:52.573-0400 I ACCESS   [conn169] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T12:15:54.735-0400 I NETWORK  [conn168] end connection 127.0.0.1:54771 (2 connections now open)
+2015-06-03T12:15:54.736-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54847 #170 (3 connections now open)
+2015-06-03T12:15:54.900-0400 I ACCESS   [conn170] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T12:29:53.057-0400 I NETWORK  [conn169] end connection 127.0.0.1:54790 (2 connections now open)
+2015-06-03T12:29:53.058-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54865 #171 (3 connections now open)
+2015-06-03T12:29:53.224-0400 I ACCESS   [conn171] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T12:45:55.396-0400 I NETWORK  [conn170] end connection 127.0.0.1:54847 (2 connections now open)
+2015-06-03T12:45:55.400-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54894 #172 (3 connections now open)
+2015-06-03T12:45:55.566-0400 I ACCESS   [conn172] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T12:59:55.728-0400 I NETWORK  [conn171] end connection 127.0.0.1:54865 (2 connections now open)
+2015-06-03T12:59:55.730-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54910 #173 (3 connections now open)
+2015-06-03T12:59:55.898-0400 I ACCESS   [conn173] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T13:15:56.065-0400 I NETWORK  [conn172] end connection 127.0.0.1:54894 (2 connections now open)
+2015-06-03T13:15:56.067-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54944 #174 (3 connections now open)
+2015-06-03T13:15:56.229-0400 I ACCESS   [conn174] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T13:29:56.384-0400 I NETWORK  [conn173] end connection 127.0.0.1:54910 (2 connections now open)
+2015-06-03T13:29:56.385-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54960 #175 (3 connections now open)
+2015-06-03T13:29:56.561-0400 I ACCESS   [conn175] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T13:45:56.750-0400 I NETWORK  [conn174] end connection 127.0.0.1:54944 (2 connections now open)
+2015-06-03T13:45:56.751-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55005 #176 (3 connections now open)
+2015-06-03T13:45:56.891-0400 I ACCESS   [conn176] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T13:59:57.025-0400 I NETWORK  [conn175] end connection 127.0.0.1:54960 (2 connections now open)
+2015-06-03T13:59:57.026-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55019 #177 (3 connections now open)
+2015-06-03T13:59:57.188-0400 I ACCESS   [conn177] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T14:15:57.367-0400 I NETWORK  [conn176] end connection 127.0.0.1:55005 (2 connections now open)
+2015-06-03T14:15:57.370-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55055 #178 (3 connections now open)
+2015-06-03T14:15:57.523-0400 I ACCESS   [conn178] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T14:29:57.646-0400 I NETWORK  [conn177] end connection 127.0.0.1:55019 (2 connections now open)
+2015-06-03T14:29:57.647-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55070 #179 (3 connections now open)
+2015-06-03T14:29:57.818-0400 I ACCESS   [conn179] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T14:45:58.006-0400 I NETWORK  [conn178] end connection 127.0.0.1:55055 (2 connections now open)
+2015-06-03T14:45:58.007-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55101 #180 (3 connections now open)
+2015-06-03T14:45:58.174-0400 I ACCESS   [conn180] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T15:00:00.310-0400 I NETWORK  [conn179] end connection 127.0.0.1:55070 (2 connections now open)
+2015-06-03T15:00:00.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55118 #181 (3 connections now open)
+2015-06-03T15:00:00.468-0400 I ACCESS   [conn181] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T15:16:00.655-0400 I NETWORK  [conn180] end connection 127.0.0.1:55101 (2 connections now open)
+2015-06-03T15:16:00.657-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55157 #182 (3 connections now open)
+2015-06-03T15:16:00.819-0400 I ACCESS   [conn182] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T15:30:00.939-0400 I NETWORK  [conn181] end connection 127.0.0.1:55118 (2 connections now open)
+2015-06-03T15:30:00.940-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55175 #183 (3 connections now open)
+2015-06-03T15:30:01.096-0400 I ACCESS   [conn183] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T15:46:01.263-0400 I NETWORK  [conn182] end connection 127.0.0.1:55157 (2 connections now open)
+2015-06-03T15:46:01.265-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55207 #184 (3 connections now open)
+2015-06-03T15:46:01.438-0400 I ACCESS   [conn184] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T16:00:01.582-0400 I NETWORK  [conn183] end connection 127.0.0.1:55175 (2 connections now open)
+2015-06-03T16:00:01.585-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55232 #185 (3 connections now open)
+2015-06-03T16:00:01.749-0400 I ACCESS   [conn185] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T19:26:01.471-0400 I STORAGE  [DataFileSync] flushing mmaps took 12316153ms  for 6 files
+2015-06-03T19:26:04.380-0400 I NETWORK  [conn184] end connection 127.0.0.1:55207 (2 connections now open)
+2015-06-03T19:26:04.380-0400 I NETWORK  [conn185] end connection 127.0.0.1:55232 (1 connection now open)
+2015-06-03T19:26:04.381-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55296 #186 (2 connections now open)
+2015-06-03T19:26:04.381-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55297 #187 (3 connections now open)
+2015-06-03T19:26:04.382-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:55298 #188 (4 connections now open)
+2015-06-03T19:26:05.235-0400 I ACCESS   [conn187] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T19:26:05.267-0400 I ACCESS   [conn188] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T19:26:05.271-0400 I ACCESS   [conn186] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T19:36:44.388-0400 I NETWORK  [conn187] end connection 127.0.0.1:55297 (3 connections now open)
+2015-06-03T19:56:05.310-0400 I NETWORK  [conn188] end connection 127.0.0.1:55298 (2 connections now open)
+2015-06-03T19:56:05.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56220 #189 (3 connections now open)
+2015-06-03T19:56:05.311-0400 I NETWORK  [conn186] end connection 127.0.0.1:55296 (2 connections now open)
+2015-06-03T19:56:05.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56221 #190 (3 connections now open)
+2015-06-03T19:56:05.624-0400 I ACCESS   [conn189] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T19:56:05.666-0400 I ACCESS   [conn190] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T20:26:06.311-0400 I NETWORK  [conn189] end connection 127.0.0.1:56220 (2 connections now open)
+2015-06-03T20:26:06.311-0400 I NETWORK  [conn190] end connection 127.0.0.1:56221 (1 connection now open)
+2015-06-03T20:26:06.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56801 #191 (2 connections now open)
+2015-06-03T20:26:06.316-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56802 #192 (3 connections now open)
+2015-06-03T20:26:06.702-0400 I ACCESS   [conn191] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T20:26:06.716-0400 I ACCESS   [conn192] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T20:56:06.428-0400 I NETWORK  [conn192] end connection 127.0.0.1:56802 (2 connections now open)
+2015-06-03T20:56:06.429-0400 I NETWORK  [conn191] end connection 127.0.0.1:56801 (1 connection now open)
+2015-06-03T20:56:06.429-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57163 #193 (2 connections now open)
+2015-06-03T20:56:06.431-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57164 #194 (3 connections now open)
+2015-06-03T20:56:06.772-0400 I ACCESS   [conn193] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T20:56:06.774-0400 I ACCESS   [conn194] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T21:26:09.358-0400 I NETWORK  [conn194] end connection 127.0.0.1:57164 (2 connections now open)
+2015-06-03T21:26:09.358-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57313 #195 (3 connections now open)
+2015-06-03T21:26:09.360-0400 I NETWORK  [conn193] end connection 127.0.0.1:57163 (2 connections now open)
+2015-06-03T21:26:09.360-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57314 #196 (3 connections now open)
+2015-06-03T21:26:09.664-0400 I ACCESS   [conn195] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T21:26:09.678-0400 I ACCESS   [conn196] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T21:56:11.311-0400 I NETWORK  [conn195] end connection 127.0.0.1:57313 (2 connections now open)
+2015-06-03T21:56:11.311-0400 I NETWORK  [conn196] end connection 127.0.0.1:57314 (2 connections now open)
+2015-06-03T21:56:11.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57982 #197 (2 connections now open)
+2015-06-03T21:56:11.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57983 #198 (3 connections now open)
+2015-06-03T21:56:11.738-0400 I ACCESS   [conn198] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T21:56:11.749-0400 I ACCESS   [conn197] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T22:26:12.310-0400 I NETWORK  [conn198] end connection 127.0.0.1:57983 (2 connections now open)
+2015-06-03T22:26:12.310-0400 I NETWORK  [conn197] end connection 127.0.0.1:57982 (2 connections now open)
+2015-06-03T22:26:12.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58249 #199 (2 connections now open)
+2015-06-03T22:26:12.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58250 #200 (3 connections now open)
+2015-06-03T22:26:12.668-0400 I ACCESS   [conn200] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T22:26:12.671-0400 I ACCESS   [conn199] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T22:56:12.312-0400 I NETWORK  [conn199] end connection 127.0.0.1:58249 (2 connections now open)
+2015-06-03T22:56:12.313-0400 I NETWORK  [conn200] end connection 127.0.0.1:58250 (2 connections now open)
+2015-06-03T22:56:12.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58718 #201 (2 connections now open)
+2015-06-03T22:56:12.314-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58719 #202 (3 connections now open)
+2015-06-03T22:56:12.622-0400 I ACCESS   [conn202] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T22:56:12.625-0400 I ACCESS   [conn201] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T23:26:12.313-0400 I NETWORK  [conn201] end connection 127.0.0.1:58718 (2 connections now open)
+2015-06-03T23:26:14.310-0400 I NETWORK  [conn202] end connection 127.0.0.1:58719 (1 connection now open)
+2015-06-03T23:26:14.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59361 #203 (2 connections now open)
+2015-06-03T23:26:14.321-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59362 #204 (3 connections now open)
+2015-06-03T23:26:14.676-0400 I ACCESS   [conn203] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T23:26:14.678-0400 I ACCESS   [conn204] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T23:56:15.313-0400 I NETWORK  [conn204] end connection 127.0.0.1:59362 (2 connections now open)
+2015-06-03T23:56:15.313-0400 I NETWORK  [conn203] end connection 127.0.0.1:59361 (1 connection now open)
+2015-06-03T23:56:15.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60048 #205 (3 connections now open)
+2015-06-03T23:56:15.315-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60049 #206 (3 connections now open)
+2015-06-03T23:56:15.858-0400 I ACCESS   [conn206] Successfully authenticated as principal pikaille on Brewing
+2015-06-03T23:56:15.869-0400 I ACCESS   [conn205] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T00:26:15.313-0400 I NETWORK  [conn205] end connection 127.0.0.1:60048 (2 connections now open)
+2015-06-04T00:26:15.315-0400 I NETWORK  [conn206] end connection 127.0.0.1:60049 (1 connection now open)
+2015-06-04T00:26:17.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60436 #207 (2 connections now open)
+2015-06-04T00:26:17.321-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60437 #208 (3 connections now open)
+2015-06-04T00:26:17.671-0400 I ACCESS   [conn207] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T00:26:17.676-0400 I ACCESS   [conn208] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T00:56:18.310-0400 I NETWORK  [conn207] end connection 127.0.0.1:60436 (2 connections now open)
+2015-06-04T00:56:18.312-0400 I NETWORK  [conn208] end connection 127.0.0.1:60437 (1 connection now open)
+2015-06-04T00:56:18.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61162 #209 (2 connections now open)
+2015-06-04T00:56:18.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61163 #210 (3 connections now open)
+2015-06-04T00:56:18.671-0400 I ACCESS   [conn209] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T00:56:18.680-0400 I ACCESS   [conn210] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T01:26:18.313-0400 I NETWORK  [conn210] end connection 127.0.0.1:61163 (2 connections now open)
+2015-06-04T01:26:18.313-0400 I NETWORK  [conn209] end connection 127.0.0.1:61162 (2 connections now open)
+2015-06-04T01:26:18.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61402 #211 (2 connections now open)
+2015-06-04T01:26:18.314-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61403 #212 (3 connections now open)
+2015-06-04T01:26:18.643-0400 I ACCESS   [conn211] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T01:26:18.650-0400 I ACCESS   [conn212] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T01:56:19.310-0400 I NETWORK  [conn212] end connection 127.0.0.1:61403 (2 connections now open)
+2015-06-04T01:56:19.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61505 #213 (3 connections now open)
+2015-06-04T01:56:19.319-0400 I NETWORK  [conn211] end connection 127.0.0.1:61402 (2 connections now open)
+2015-06-04T01:56:19.319-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61506 #214 (3 connections now open)
+2015-06-04T01:56:19.605-0400 I ACCESS   [conn213] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T01:56:19.614-0400 I ACCESS   [conn214] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T02:26:20.311-0400 I NETWORK  [conn214] end connection 127.0.0.1:61506 (2 connections now open)
+2015-06-04T02:26:20.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61553 #215 (3 connections now open)
+2015-06-04T02:26:20.316-0400 I NETWORK  [conn213] end connection 127.0.0.1:61505 (2 connections now open)
+2015-06-04T02:26:20.316-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61554 #216 (3 connections now open)
+2015-06-04T02:26:20.602-0400 I ACCESS   [conn216] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T02:26:20.606-0400 I ACCESS   [conn215] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T02:56:21.310-0400 I NETWORK  [conn216] end connection 127.0.0.1:61554 (2 connections now open)
+2015-06-04T02:56:21.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61594 #217 (3 connections now open)
+2015-06-04T02:56:21.311-0400 I NETWORK  [conn215] end connection 127.0.0.1:61553 (2 connections now open)
+2015-06-04T02:56:21.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61595 #218 (3 connections now open)
+2015-06-04T02:56:21.630-0400 I ACCESS   [conn217] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T02:56:21.641-0400 I ACCESS   [conn218] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T03:26:21.311-0400 I NETWORK  [conn217] end connection 127.0.0.1:61594 (2 connections now open)
+2015-06-04T03:26:21.312-0400 I NETWORK  [conn218] end connection 127.0.0.1:61595 (1 connection now open)
+2015-06-04T03:26:21.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61644 #219 (2 connections now open)
+2015-06-04T03:26:21.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61645 #220 (3 connections now open)
+2015-06-04T03:26:21.652-0400 I ACCESS   [conn219] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T03:26:21.656-0400 I ACCESS   [conn220] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T03:56:21.313-0400 I NETWORK  [conn220] end connection 127.0.0.1:61645 (2 connections now open)
+2015-06-04T03:56:21.313-0400 I NETWORK  [conn219] end connection 127.0.0.1:61644 (1 connection now open)
+2015-06-04T03:56:21.314-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61695 #221 (2 connections now open)
+2015-06-04T03:56:21.465-0400 I ACCESS   [conn221] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T03:56:25.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61696 #222 (3 connections now open)
+2015-06-04T03:56:25.461-0400 I ACCESS   [conn222] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T04:26:22.309-0400 I NETWORK  [conn221] end connection 127.0.0.1:61695 (2 connections now open)
+2015-06-04T04:26:22.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61745 #223 (3 connections now open)
+2015-06-04T04:26:22.466-0400 I ACCESS   [conn223] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T04:26:26.309-0400 I NETWORK  [conn222] end connection 127.0.0.1:61696 (2 connections now open)
+2015-06-04T04:26:26.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61746 #224 (3 connections now open)
+2015-06-04T04:26:26.461-0400 I ACCESS   [conn224] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T04:56:23.312-0400 I NETWORK  [conn223] end connection 127.0.0.1:61745 (2 connections now open)
+2015-06-04T04:56:23.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61782 #225 (3 connections now open)
+2015-06-04T04:56:23.481-0400 I ACCESS   [conn225] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T04:56:27.309-0400 I NETWORK  [conn224] end connection 127.0.0.1:61746 (2 connections now open)
+2015-06-04T04:56:27.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61783 #226 (3 connections now open)
+2015-06-04T04:56:27.457-0400 I ACCESS   [conn226] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T05:26:23.312-0400 I NETWORK  [conn225] end connection 127.0.0.1:61782 (2 connections now open)
+2015-06-04T05:26:23.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61838 #227 (3 connections now open)
+2015-06-04T05:26:23.464-0400 I ACCESS   [conn227] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T05:26:27.311-0400 I NETWORK  [conn226] end connection 127.0.0.1:61783 (2 connections now open)
+2015-06-04T05:26:27.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61839 #228 (3 connections now open)
+2015-06-04T05:26:27.462-0400 I ACCESS   [conn228] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T05:56:25.312-0400 I NETWORK  [conn227] end connection 127.0.0.1:61838 (2 connections now open)
+2015-06-04T05:56:25.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61920 #229 (3 connections now open)
+2015-06-04T05:56:25.491-0400 I ACCESS   [conn229] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T05:56:27.311-0400 I NETWORK  [conn228] end connection 127.0.0.1:61839 (2 connections now open)
+2015-06-04T05:56:29.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61921 #230 (3 connections now open)
+2015-06-04T05:56:29.459-0400 I ACCESS   [conn230] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T06:26:25.319-0400 I NETWORK  [conn229] end connection 127.0.0.1:61920 (2 connections now open)
+2015-06-04T06:26:25.321-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61970 #231 (3 connections now open)
+2015-06-04T06:26:25.478-0400 I ACCESS   [conn231] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T06:26:29.309-0400 I NETWORK  [conn230] end connection 127.0.0.1:61921 (2 connections now open)
+2015-06-04T06:26:31.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61971 #232 (3 connections now open)
+2015-06-04T06:26:31.453-0400 I ACCESS   [conn232] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T06:56:26.308-0400 I NETWORK  [conn231] end connection 127.0.0.1:61970 (2 connections now open)
+2015-06-04T06:56:26.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62022 #233 (3 connections now open)
+2015-06-04T06:56:26.455-0400 I ACCESS   [conn233] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T06:56:32.315-0400 I NETWORK  [conn232] end connection 127.0.0.1:61971 (2 connections now open)
+2015-06-04T06:56:32.316-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62023 #234 (3 connections now open)
+2015-06-04T06:56:32.467-0400 I ACCESS   [conn234] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T07:26:26.309-0400 I NETWORK  [conn233] end connection 127.0.0.1:62022 (2 connections now open)
+2015-06-04T07:26:26.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62133 #235 (3 connections now open)
+2015-06-04T07:26:26.468-0400 I ACCESS   [conn235] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T07:26:34.309-0400 I NETWORK  [conn234] end connection 127.0.0.1:62023 (2 connections now open)
+2015-06-04T07:26:34.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62134 #236 (3 connections now open)
+2015-06-04T07:26:34.467-0400 I ACCESS   [conn236] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T07:56:29.308-0400 I NETWORK  [conn235] end connection 127.0.0.1:62133 (2 connections now open)
+2015-06-04T07:56:29.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62194 #237 (3 connections now open)
+2015-06-04T07:56:29.463-0400 I ACCESS   [conn237] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T07:56:35.308-0400 I NETWORK  [conn236] end connection 127.0.0.1:62134 (2 connections now open)
+2015-06-04T07:56:35.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62195 #238 (3 connections now open)
+2015-06-04T07:56:35.464-0400 I ACCESS   [conn238] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T08:26:31.321-0400 I NETWORK  [conn237] end connection 127.0.0.1:62194 (2 connections now open)
+2015-06-04T08:26:31.321-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62245 #239 (3 connections now open)
+2015-06-04T08:26:31.480-0400 I ACCESS   [conn239] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T08:26:35.310-0400 I NETWORK  [conn238] end connection 127.0.0.1:62195 (2 connections now open)
+2015-06-04T08:26:35.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62246 #240 (3 connections now open)
+2015-06-04T08:26:35.465-0400 I ACCESS   [conn240] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T08:56:35.312-0400 I NETWORK  [conn240] end connection 127.0.0.1:62246 (2 connections now open)
+2015-06-04T08:56:35.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62936 #241 (3 connections now open)
+2015-06-04T08:56:35.336-0400 I NETWORK  [conn239] end connection 127.0.0.1:62245 (2 connections now open)
+2015-06-04T08:56:35.336-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62937 #242 (3 connections now open)
+2015-06-04T08:56:35.650-0400 I ACCESS   [conn241] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T08:56:35.667-0400 I ACCESS   [conn242] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T09:26:37.308-0400 I NETWORK  [conn242] end connection 127.0.0.1:62937 (2 connections now open)
+2015-06-04T09:26:37.308-0400 I NETWORK  [conn241] end connection 127.0.0.1:62936 (1 connection now open)
+2015-06-04T09:26:37.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62985 #243 (2 connections now open)
+2015-06-04T09:26:37.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62986 #244 (3 connections now open)
+2015-06-04T09:26:37.667-0400 I ACCESS   [conn243] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T09:26:37.670-0400 I ACCESS   [conn244] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T09:56:38.310-0400 I NETWORK  [conn243] end connection 127.0.0.1:62985 (2 connections now open)
+2015-06-04T09:56:38.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63033 #245 (3 connections now open)
+2015-06-04T09:56:38.336-0400 I NETWORK  [conn244] end connection 127.0.0.1:62986 (2 connections now open)
+2015-06-04T09:56:38.337-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63034 #246 (3 connections now open)
+2015-06-04T09:56:38.560-0400 I ACCESS   [conn245] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T09:56:38.577-0400 I ACCESS   [conn246] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T10:26:39.308-0400 I NETWORK  [conn246] end connection 127.0.0.1:63034 (2 connections now open)
+2015-06-04T10:26:39.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63076 #247 (3 connections now open)
+2015-06-04T10:26:39.321-0400 I NETWORK  [conn245] end connection 127.0.0.1:63033 (2 connections now open)
+2015-06-04T10:26:39.321-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63077 #248 (3 connections now open)
+2015-06-04T10:26:39.645-0400 I ACCESS   [conn248] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T10:26:39.647-0400 I ACCESS   [conn247] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T10:56:39.308-0400 I NETWORK  [conn247] end connection 127.0.0.1:63076 (2 connections now open)
+2015-06-04T10:56:39.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63123 #249 (3 connections now open)
+2015-06-04T10:56:39.459-0400 I ACCESS   [conn249] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T10:56:41.311-0400 I NETWORK  [conn248] end connection 127.0.0.1:63077 (2 connections now open)
+2015-06-04T10:56:41.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63124 #250 (3 connections now open)
+2015-06-04T10:56:41.464-0400 I ACCESS   [conn250] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T11:26:40.311-0400 I NETWORK  [conn249] end connection 127.0.0.1:63123 (2 connections now open)
+2015-06-04T11:26:40.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63169 #251 (3 connections now open)
+2015-06-04T11:26:40.459-0400 I ACCESS   [conn251] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T11:26:42.311-0400 I NETWORK  [conn250] end connection 127.0.0.1:63124 (2 connections now open)
+2015-06-04T11:26:42.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63170 #252 (3 connections now open)
+2015-06-04T11:26:42.456-0400 I ACCESS   [conn252] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T11:56:41.316-0400 I NETWORK  [conn251] end connection 127.0.0.1:63169 (2 connections now open)
+2015-06-04T11:56:41.316-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63224 #253 (3 connections now open)
+2015-06-04T11:56:41.479-0400 I ACCESS   [conn253] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T11:56:45.309-0400 I NETWORK  [conn252] end connection 127.0.0.1:63170 (2 connections now open)
+2015-06-04T11:56:45.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63225 #254 (3 connections now open)
+2015-06-04T11:56:45.455-0400 I ACCESS   [conn254] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T12:26:41.318-0400 I NETWORK  [conn253] end connection 127.0.0.1:63224 (2 connections now open)
+2015-06-04T12:26:41.319-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63341 #255 (3 connections now open)
+2015-06-04T12:26:41.472-0400 I ACCESS   [conn255] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T12:26:45.309-0400 I NETWORK  [conn254] end connection 127.0.0.1:63225 (2 connections now open)
+2015-06-04T12:26:45.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63342 #256 (3 connections now open)
+2015-06-04T12:26:45.471-0400 I ACCESS   [conn256] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T12:56:43.310-0400 I NETWORK  [conn255] end connection 127.0.0.1:63341 (2 connections now open)
+2015-06-04T12:56:43.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63595 #257 (3 connections now open)
+2015-06-04T12:56:43.469-0400 I ACCESS   [conn257] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T12:56:45.309-0400 I NETWORK  [conn256] end connection 127.0.0.1:63342 (2 connections now open)
+2015-06-04T12:56:45.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63596 #258 (3 connections now open)
+2015-06-04T12:56:45.470-0400 I ACCESS   [conn258] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T13:26:44.308-0400 I NETWORK  [conn257] end connection 127.0.0.1:63595 (2 connections now open)
+2015-06-04T13:26:44.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63760 #259 (3 connections now open)
+2015-06-04T13:26:44.457-0400 I ACCESS   [conn259] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T13:26:46.308-0400 I NETWORK  [conn258] end connection 127.0.0.1:63596 (2 connections now open)
+2015-06-04T13:26:46.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63761 #260 (3 connections now open)
+2015-06-04T13:26:46.458-0400 I ACCESS   [conn260] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T13:56:44.399-0400 I NETWORK  [conn259] end connection 127.0.0.1:63760 (2 connections now open)
+2015-06-04T13:56:44.404-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64387 #261 (4 connections now open)
+2015-06-04T13:56:44.641-0400 I ACCESS   [conn261] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T13:56:46.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64388 #262 (4 connections now open)
+2015-06-04T13:56:46.310-0400 I NETWORK  [conn260] end connection 127.0.0.1:63761 (2 connections now open)
+2015-06-04T13:56:46.488-0400 I ACCESS   [conn262] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T14:02:55.501-0400 I QUERY    [conn262] query Brewing.Recipe query: { $query: { _id: ObjectId('507f1f77bcf86cd799439011') } } planSummary: IDHACK ntoreturn:0 ntoskip:0 nscanned:1 nscannedObjects:1 idhack:1 keyUpdates:0 writeConflicts:0 numYields:1 nreturned:1 reslen:100 locks:{ Global: { acquireCount: { r: 2 } }, MMAPV1Journal: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { R: 2 } } } 182ms
+2015-06-04T14:26:44.312-0400 I NETWORK  [conn261] end connection 127.0.0.1:64387 (2 connections now open)
+2015-06-04T14:26:44.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64721 #263 (3 connections now open)
+2015-06-04T14:26:44.457-0400 I ACCESS   [conn263] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T14:26:48.309-0400 I NETWORK  [conn262] end connection 127.0.0.1:64388 (2 connections now open)
+2015-06-04T14:26:48.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:64722 #264 (3 connections now open)
+2015-06-04T14:26:48.465-0400 I ACCESS   [conn264] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T14:56:45.310-0400 I NETWORK  [conn263] end connection 127.0.0.1:64721 (2 connections now open)
+2015-06-04T14:56:45.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65071 #265 (3 connections now open)
+2015-06-04T14:56:45.488-0400 I ACCESS   [conn265] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T14:56:51.308-0400 I NETWORK  [conn264] end connection 127.0.0.1:64722 (2 connections now open)
+2015-06-04T14:56:51.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65072 #266 (3 connections now open)
+2015-06-04T14:56:51.490-0400 I ACCESS   [conn266] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T15:26:45.311-0400 I NETWORK  [conn265] end connection 127.0.0.1:65071 (2 connections now open)
+2015-06-04T15:26:47.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65198 #267 (3 connections now open)
+2015-06-04T15:26:47.456-0400 I ACCESS   [conn267] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T15:26:51.309-0400 I NETWORK  [conn266] end connection 127.0.0.1:65072 (2 connections now open)
+2015-06-04T15:26:51.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65199 #268 (3 connections now open)
+2015-06-04T15:26:51.464-0400 I ACCESS   [conn268] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T15:56:47.309-0400 I NETWORK  [conn267] end connection 127.0.0.1:65198 (2 connections now open)
+2015-06-04T15:56:47.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65312 #269 (3 connections now open)
+2015-06-04T15:56:47.460-0400 I ACCESS   [conn269] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T15:56:51.312-0400 I NETWORK  [conn268] end connection 127.0.0.1:65199 (2 connections now open)
+2015-06-04T15:56:51.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65313 #270 (3 connections now open)
+2015-06-04T15:56:51.464-0400 I ACCESS   [conn270] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T16:26:47.309-0400 I NETWORK  [conn269] end connection 127.0.0.1:65312 (2 connections now open)
+2015-06-04T16:26:49.319-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65421 #271 (3 connections now open)
+2015-06-04T16:26:49.461-0400 I ACCESS   [conn271] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T16:26:51.312-0400 I NETWORK  [conn270] end connection 127.0.0.1:65313 (2 connections now open)
+2015-06-04T16:26:51.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65422 #272 (3 connections now open)
+2015-06-04T16:26:51.457-0400 I ACCESS   [conn272] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T16:56:52.309-0400 I NETWORK  [conn272] end connection 127.0.0.1:65422 (2 connections now open)
+2015-06-04T16:56:52.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65528 #273 (3 connections now open)
+2015-06-04T16:56:52.351-0400 I NETWORK  [conn271] end connection 127.0.0.1:65421 (2 connections now open)
+2015-06-04T16:56:52.351-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65529 #274 (3 connections now open)
+2015-06-04T16:56:52.650-0400 I ACCESS   [conn273] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T16:56:52.674-0400 I ACCESS   [conn274] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T17:26:52.310-0400 I NETWORK  [conn273] end connection 127.0.0.1:65528 (2 connections now open)
+2015-06-04T17:26:52.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49259 #275 (3 connections now open)
+2015-06-04T17:26:52.480-0400 I ACCESS   [conn275] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T17:26:52.926-0400 I NETWORK  [conn274] end connection 127.0.0.1:65529 (2 connections now open)
+2015-06-04T17:26:58.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49260 #276 (3 connections now open)
+2015-06-04T17:26:58.483-0400 I ACCESS   [conn276] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T17:56:53.069-0400 I NETWORK  [conn275] end connection 127.0.0.1:49259 (2 connections now open)
+2015-06-04T17:56:54.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49361 #277 (3 connections now open)
+2015-06-04T17:56:54.460-0400 I ACCESS   [conn277] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T17:57:02.313-0400 I NETWORK  [conn276] end connection 127.0.0.1:49260 (2 connections now open)
+2015-06-04T17:57:02.314-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49362 #278 (3 connections now open)
+2015-06-04T17:57:02.464-0400 I ACCESS   [conn278] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T18:26:55.310-0400 I NETWORK  [conn277] end connection 127.0.0.1:49361 (2 connections now open)
+2015-06-04T18:26:55.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49476 #279 (3 connections now open)
+2015-06-04T18:26:55.459-0400 I ACCESS   [conn279] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T18:27:03.309-0400 I NETWORK  [conn278] end connection 127.0.0.1:49362 (2 connections now open)
+2015-06-04T18:27:03.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49477 #280 (3 connections now open)
+2015-06-04T18:27:03.456-0400 I ACCESS   [conn280] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T18:56:56.310-0400 I NETWORK  [conn279] end connection 127.0.0.1:49476 (2 connections now open)
+2015-06-04T18:56:56.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49587 #281 (3 connections now open)
+2015-06-04T18:56:56.472-0400 I ACCESS   [conn281] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T18:57:08.310-0400 I NETWORK  [conn280] end connection 127.0.0.1:49477 (2 connections now open)
+2015-06-04T18:57:08.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49588 #282 (3 connections now open)
+2015-06-04T18:57:08.464-0400 I ACCESS   [conn282] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T19:26:56.310-0400 I NETWORK  [conn281] end connection 127.0.0.1:49587 (2 connections now open)
+2015-06-04T19:26:56.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49694 #283 (3 connections now open)
+2015-06-04T19:26:56.458-0400 I ACCESS   [conn283] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T19:27:08.311-0400 I NETWORK  [conn282] end connection 127.0.0.1:49588 (2 connections now open)
+2015-06-04T19:27:08.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49695 #284 (3 connections now open)
+2015-06-04T19:27:08.456-0400 I ACCESS   [conn284] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T19:56:56.311-0400 I NETWORK  [conn283] end connection 127.0.0.1:49694 (2 connections now open)
+2015-06-04T19:56:56.313-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49802 #285 (3 connections now open)
+2015-06-04T19:56:56.455-0400 I ACCESS   [conn285] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T19:57:08.312-0400 I NETWORK  [conn284] end connection 127.0.0.1:49695 (2 connections now open)
+2015-06-04T19:57:10.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49803 #286 (3 connections now open)
+2015-06-04T19:57:10.452-0400 I ACCESS   [conn286] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T20:26:56.312-0400 I NETWORK  [conn285] end connection 127.0.0.1:49802 (2 connections now open)
+2015-06-04T20:27:00.320-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49910 #287 (3 connections now open)
+2015-06-04T20:27:00.475-0400 I ACCESS   [conn287] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T20:27:10.309-0400 I NETWORK  [conn286] end connection 127.0.0.1:49803 (2 connections now open)
+2015-06-04T20:27:10.309-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49911 #288 (3 connections now open)
+2015-06-04T20:27:10.460-0400 I ACCESS   [conn288] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T20:57:02.308-0400 I NETWORK  [conn287] end connection 127.0.0.1:49910 (2 connections now open)
+2015-06-04T20:57:02.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50039 #289 (3 connections now open)
+2015-06-04T20:57:02.454-0400 I ACCESS   [conn289] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T20:57:10.309-0400 I NETWORK  [conn288] end connection 127.0.0.1:49911 (2 connections now open)
+2015-06-04T20:57:10.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50040 #290 (3 connections now open)
+2015-06-04T20:57:10.454-0400 I ACCESS   [conn290] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T21:27:02.308-0400 I NETWORK  [conn289] end connection 127.0.0.1:50039 (2 connections now open)
+2015-06-04T21:27:02.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50417 #291 (3 connections now open)
+2015-06-04T21:27:02.467-0400 I ACCESS   [conn291] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T21:27:10.310-0400 I NETWORK  [conn290] end connection 127.0.0.1:50040 (2 connections now open)
+2015-06-04T21:27:10.311-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50418 #292 (3 connections now open)
+2015-06-04T21:27:10.491-0400 I ACCESS   [conn292] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T21:57:02.312-0400 I NETWORK  [conn291] end connection 127.0.0.1:50417 (2 connections now open)
+2015-06-04T21:57:02.312-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50763 #293 (3 connections now open)
+2015-06-04T21:57:02.458-0400 I ACCESS   [conn293] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T21:57:10.310-0400 I NETWORK  [conn292] end connection 127.0.0.1:50418 (2 connections now open)
+2015-06-04T21:57:14.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50765 #294 (3 connections now open)
+2015-06-04T21:57:14.454-0400 I ACCESS   [conn294] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T22:27:02.312-0400 I NETWORK  [conn293] end connection 127.0.0.1:50763 (2 connections now open)
+2015-06-04T22:27:04.308-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51197 #295 (3 connections now open)
+2015-06-04T22:27:04.467-0400 I ACCESS   [conn295] Successfully authenticated as principal pikaille on Brewing
+2015-06-04T22:27:14.309-0400 I NETWORK  [conn294] end connection 127.0.0.1:50765 (2 connections now open)
+2015-06-04T22:27:14.310-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:51199 #296 (3 connections now open)
+2015-06-04T22:27:14.469-0400 I ACCESS   [conn296] Successfully authenticated as principal pikaille on Brewing
