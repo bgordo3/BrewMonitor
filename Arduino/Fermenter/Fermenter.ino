@@ -6,164 +6,85 @@
 float Temperature = 0.f;
 
 //Communication constants
-#define CONNECT = "<c";
-#define ACCEPT = "<a";
-#define KEEP_ALIVE = "<k";
-#define SET_ID = "<i";
-#define END_OF_LINE = '\n';
-#define TIMEOUT = 5;
+#define CONNECT "<c"
+#define ACCEPT  "<a"
+#define KEEP_ALIVE  "<k"
+#define SET_TARGET  "<t"
+#define SET_ID  "<i"
+#define GET_TEMP  "<g"
+#define END_OF_LINE  '\n'
+#define END_OF_CSTR  '\0'
+#define TIMEOUT  5000
 
 //Relay pins
-#define COOLER_RELAY 3
-#define LIGHT_RELAY 4
+#define HSWITCH1_RELAY 3
+#define HSWITCH2_RELAY 4
 
 //display
 U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);	// I2C / TWI 
+#define TEMP_CHAR '°'
 
-char TEMP_CHAR = '°';
+//Data save
+#define CONFIG_VERSION "ls1"
+#define CONFIG_START 32
+#define ID_LENGTH 20
 
 void setup()
 {
   // start serial port at 9600 bps:
   Serial.begin(9600); 
-  Serial.setTimeout(10000); 
+  Serial.setTimeout(TIMEOUT); 
   
-  loadConfig();
+  loadPersistentConfig();
   
   setupDisplay();
-  establishContact();  // send a byte to establish contact until receiver responds 
   
-    // if analog input pin 0 is unconnected, random analog
+  // if analog input pin 0 is unconnected, random analog
   // noise will cause the call to randomSeed() to generate
   // different seed numbers each time the sketch runs.
   // randomSeed() will then shuffle the random function.
   randomSeed(analogRead(0));
   
-  pinMode(COOLER_RELAY, OUTPUT);     
-  pinMode(LIGHT_RELAY, OUTPUT);
-  digitalWrite(LIGHT_RELAY, LOW);     
+  pinMode(HSWITCH1_RELAY, OUTPUT);     
+  pinMode(HSWITCH2_RELAY, OUTPUT);
+  digitalWrite(HSWITCH1_RELAY, LOW); 
+  digitalWrite(HSWITCH2_RELAY, HIGH);   
 }
 
 void loop()
 {
+  // Get temperature and start cooling if needed.
   handleCooling();
  
-  // show sensor values
-  pictureLoop();            
+  // Show sensor values (temperature) on display.
+  displayLoop();            
   
-  delay(1000);
-  renegociateConnexion();
+  // Respond to request
+  handleServerRequest();
   
+  //delay(1000);
 }
 
-//-----------------------
-//     Cooling
-void handleCooling()
+//--------------------------------------------------------------
+//                 ID Storing - Settings
+
+struct StoreStruct 
 {
-  GetTemperature();
-  if (Temperature > 17.f)
-    digitalWrite(COOLER_RELAY, LOW);   
-   if (Temperature < 16.f)
-    digitalWrite(COOLER_RELAY, HIGH);   
-}
-
-//----------------------
-//    Serial connexion
-void establishContact() 
-{
-  /*while (Serial.available() <= 0) 
-  {
-    delay(1000);
-  }
-  
-  if (CONNECT == Serial.readStringUntil(END_OF_LINE))
-  {
-      String tmp = (ACCEPT + END_OF_LINE);
-      Serial.write(tmp);
-      tmp = (storage.ID + END_OF_LINE);
-      Serial.write(tmp);
-  }
-  else
-  {
-    establishContact();
-  }*/
-}
-
-void renegociateConnexion()
-{
- /* String request = Serial.readStringUntil(END_OF_LINE);
-  if (request == KEEP_ALIVE)
-      return;
-  else if (request == SET_ID)
-  {
-    String new_ID = Serial.readStringUntil(END_OF_LINE);
-    if (new_ID != "")
-    {
-      storage.ID = new_ID;
-      saveConfig();
-    }
-    
-    renegociateConnexion();
-  }*/
-     
-}
-
-//-------------------------------
-//        Display Connexion
-void setupDisplay()
-{
-  u8g.begin();
-  u8g.setFont(u8g_font_fub30);
-}
-
-void pictureLoop()
-{
-  char tmp[6];
-  dtostrf(Temperature,2,1,tmp);
-  tmp[4] = TEMP_CHAR;
-  tmp[5] = '\0';
-  int xpos = 30;
-  int ypos = 50;
-  // picture loop
-  u8g.firstPage();  
-  do {
-    u8g.drawStr( xpos, ypos, tmp );
-  } while( u8g.nextPage() );
-  
-  
-}
-
-//------------------------------
-//        ReadTemperature
-void GetTemperature()
-{
-  Temperature = (random(30) / 10.f) + 15.f;
-}
-
-//---------------------------------
-// ID Storing
-// ID of the settings block
-
-#define CONFIG_VERSION "ls1"
-
-// Tell it where to store your config data in EEPROM
-#define CONFIG_START 32
-#define ID_LENGTH 20
-
-// Example settings structure
-struct StoreStruct {
- 
   // This is for mere detection if they are your settings
   char version[4];
+  float TargetTemperature;
   // The variables of your settings
   char ID[ID_LENGTH];
-} storage = {
+} 
+storage = 
+{
   CONFIG_VERSION,
+  21.f,
   // The default values
-  "͡° ͜ʖ ͡°0000\0"
+  "000000000000000000\0"
 };
 
-void loadConfig() {
+void loadPersistentConfig() {
   // To make sure there are settings, and they are YOURS!
   // If nothing is found it will use the default settings.
   if (EEPROM.read(CONFIG_START + 0) == CONFIG_VERSION[0] &&
@@ -177,4 +98,109 @@ void saveConfig() {
   for (unsigned int t=0; t<sizeof(storage); t++)
     EEPROM.write(CONFIG_START + t, *((char*)&storage + t));
 }
+
+//--------------------------------------------------------------
+//                          Cooling
+
+void handleCooling()
+{
+  //GetTemperature();
+  if (Temperature > storage.TargetTemperature + 0.5f)
+  {
+    digitalWrite(HSWITCH1_RELAY, HIGH); 
+    digitalWrite(HSWITCH2_RELAY, HIGH);    
+  }
+  if (Temperature < storage.TargetTemperature - 0.5f)
+  {
+    
+    digitalWrite(HSWITCH1_RELAY, LOW); 
+    digitalWrite(HSWITCH2_RELAY, LOW);  
+  }  
+}
+
+//--------------------------------------------------------------
+//                    Serial connexion
+
+void handleServerRequest()
+{
+  //Get the request
+  String request = Serial.readStringUntil(END_OF_LINE);
+  Serial.write(("ack : " + request + END_OF_LINE).c_str());
+  //Handle it.
+  if (request == KEEP_ALIVE)
+      return;
+  else if (request == SET_ID)
+  {
+    String new_ID = Serial.readStringUntil(END_OF_LINE);
+    if (new_ID != "" && new_ID.length() <= ID_LENGTH)
+    {
+      new_ID.toCharArray(storage.ID, ID_LENGTH);
+      Serial.write((new_ID + END_OF_LINE).c_str());
+      Serial.write((String(storage.ID) + END_OF_LINE).c_str());
+      saveConfig();
+    }
+  }
+  else if (request == SET_TARGET)
+  {
+    String new_Temp = Serial.readStringUntil(END_OF_LINE);
+    if (new_Temp != "" && new_Temp.toFloat() != 0.f)
+    {
+      storage.TargetTemperature = new_Temp.toFloat();
+      writeFloatToSerial(storage.TargetTemperature);
+      saveConfig();
+    }
+  }  
+  else if (request == CONNECT)
+  {
+      Serial.write((String(ACCEPT) + END_OF_LINE).c_str());
+      Serial.write((String(storage.ID) + END_OF_LINE).c_str());
+  } 
+  else if (request == GET_TEMP)
+  {
+      writeFloatToSerial(Temperature);
+  } 
+}
+
+void writeFloatToSerial(const float& inFloat)
+{
+  char tmp[6];
+  dtostrf(inFloat,2,1,tmp);
+  tmp[4] = END_OF_LINE;
+  tmp[5] = END_OF_CSTR;
+  Serial.write(tmp);
+}
+
+//--------------------------------------------------------------
+//                        Display
+
+void setupDisplay()
+{
+  u8g.begin();
+  u8g.setFont(u8g_font_fub30);
+}
+
+void displayLoop()
+{
+  char tmp[6];
+  dtostrf(Temperature,2,1,tmp);
+  tmp[4] = TEMP_CHAR;
+  tmp[5] = END_OF_CSTR;
+  int xpos = 30;
+  int ypos = 50;
+  // picture loop
+  u8g.firstPage();  
+  do {
+    u8g.drawStr( xpos, ypos, tmp );
+  } while( u8g.nextPage() );
+}
+
+//--------------------------------------------------------------
+//                      Read Temperature
+
+void GetTemperature()
+{
+  Temperature = (random(30) / 10.f) + 15.f;
+}
+
+
 
