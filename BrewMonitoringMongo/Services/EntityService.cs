@@ -13,6 +13,7 @@ using MongoDB.Bson;
 
 namespace BrewMonitoring.Services
 {
+	//Make me threadsafe
 	public abstract class EntityService<EntityType> where EntityType : BrewMonitoring.Entities.IEntity
 	{
 		public enum ServiceStatus

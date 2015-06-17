@@ -80,7 +80,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Content\bootstrap\" />
     <Folder Include="Content\Css\" />
-    <Folder Include="ActionFilters\" />
     <Folder Include="Helpers\" />
     <Folder Include="Views\Dashboard\" />
     <Folder Include="Content\html\" />
@@ -126,17 +125,19 @@
     <Content Include="Content\bootstrap\js\ng-google-chart.js" />
     <Content Include="Content\bootstrap\js\google-chart.js" />
     <Content Include="Content\Scripts\batch-directive.js" />
+    <Content Include="Content\Scripts\fermenter-directive.js" />
+    <Content Include="Content\html\templates\Hardware\Fermenter.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Controllers\BatchController.cs" />
-    <Compile Include="ActionFilters\CurrentBatchFilter.cs" />
     <Compile Include="Controllers\RecipeController.cs" />
     <Compile Include="Helpers\AttributeHelper.cs" />
     <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\ObjectIdBinder.cs" />
+    <Compile Include="Controllers\FermenterController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -151,9 +152,9 @@
     <None Include="Content\Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrewMonitoringMongo\BrewMonitoringMongo.csproj">
+    <ProjectReference Include="..\BrewMonitoringMongo\BrewMonitoringBackend.csproj">
       <Project>{407AB297-D2F4-4E60-8FD5-EEAC255218D3}</Project>
-      <Name>BrewMonitoringMongo</Name>
+      <Name>BrewMonitoringBackend</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

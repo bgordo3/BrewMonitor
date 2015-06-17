@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewMonitoring", "BrewMonitoring\BrewMonitoring.csproj", "{AA559BDF-BA24-4D85-BCD7-7B67AFF04A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewMonitoringMongo", "BrewMonitoringMongo\BrewMonitoringMongo.csproj", "{407AB297-D2F4-4E60-8FD5-EEAC255218D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewMonitoringBackend", "BrewMonitoringMongo\BrewMonitoringBackend.csproj", "{407AB297-D2F4-4E60-8FD5-EEAC255218D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

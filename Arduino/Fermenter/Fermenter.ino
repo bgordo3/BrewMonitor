@@ -16,7 +16,7 @@ float Temperature = 0.f;
 #define END_OF_CSTR  '\0'
 #define TIMEOUT  5000
 
-#define DEBUG_MODE true
+#define DEBUG_MODE false
 char debugStr[3];
 
 //Relay pins
@@ -130,7 +130,6 @@ void handleServerRequest()
   memcpy(debugStr, "\000", 3);
   //Get the request
   String request = Serial.readStringUntil(END_OF_LINE);
-  Serial.write(("ack : " + request + END_OF_LINE).c_str());
   //Handle it.
   if (request == KEEP_ALIVE)
     return;

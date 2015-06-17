@@ -46,6 +46,11 @@ namespace BrewMonitoring.Entities
 		{
 			Values.Add (new Tuple<long, float>(Time, Value));
 		}
+
+		public void AddRange(DataCurve Other)
+		{
+			Values.AddRange (Other.Values);
+		}
 	}
 }
 

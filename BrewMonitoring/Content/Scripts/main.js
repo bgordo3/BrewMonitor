@@ -47,6 +47,17 @@ BrewMonitor.controller('NavMenuCtrl', function ( $scope, $location, $http, $comp
 
 	};
 
+	$scope.ShowFermenters = function()
+	{
+		//Create the batch panel
+ 		var recipenavpanel = $compile("<panel><fermenters></recipenav></fermenters>");
+ 		//setup new scope
+ 		var recipescope = $scope.$new(true);
+ 		//Add to page
+   		$('#main-container').prepend(recipenavpanel(recipescope));
+
+	};
+
 	$scope.CreateBatch = function()
 	{
 		$http.post('Batch/Create/').then(

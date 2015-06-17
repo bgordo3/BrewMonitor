@@ -48,7 +48,17 @@
 		};
 	}
 
-
+	var TicksToDate = function (Ticks)
+	{
+		//ticks are in nanotime; convert to microtime
+		var ticksToMicrotime = Ticks / 10000;
+		 
+		//ticks are recorded from 1/1/1; get microtime difference from 1/1/1/ to 1/1/1970
+		var epochMicrotimeDiff = 2208988800000;
+		 
+		//new date is ticks, converted to microtime, minus difference from epoch microtime
+		return new Date(ticksToMicrotime - epochMicrotimeDiff);
+	};
 
 	var Link = function ($scope, $element) 
 	{
@@ -78,62 +88,24 @@
 
 		//--------------------
 		// Update Data
-		var Update = 0;
 		var UpdateData = function ()
 		{
 			$http.get('Batch/Get/' + ObjectId($scope.Batch._id)).then(
 			function(res)
 			{
-			  	$scope.Batch = res.data;
-			  	if (Update == 0)
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,16,48), 15.2]); 
-			  	if (Update == 1)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,17,32), 15.1]); 
-			  	if (Update == 2)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,18,16), 15.1]);
-			  	if (Update == 3)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,25,06), 14.1]); 
-			  	if (Update == 4)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,18,46), 15.0]); 
-			  	if (Update == 5)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,19,32), 15.0]); 
-			  	if (Update == 6)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,23,37), 14.5]); 
-			  	if (Update == 7)
-			  	  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,20,15), 14.8]); 
-			  	if (Update == 8)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,21,01), 14.85]); 
-			  	if (Update == 9)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,21,37), 14.8]); 
-			  	if (Update == 10)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,24,28), 14.2]); 
-			  	if (Update == 11)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,22,15), 14.9]); 
-			  	if (Update == 12)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,22,53), 14.6]); 
-			  	if (Update == 13)
-			  	
-			  	$scope.Batch.FermentationMesures.Curve.Values.push([new Date(2015,6,2, 15,25,54), 14.15]); 
-
-			  	                                Update = Update + 1;                                
+			  	$scope.Batch = res.data;                   
 			});
 
 			$http.get('Recipe/Get/' + ObjectId($scope.Batch.BeerRecipe)).then(
 			function(res)
 			{
 			  	$scope.Recipe = res.data;              
+			}); 
+
+			$http.get('Fermenter/').then(
+			function(res)
+			{
+			  	$scope.Fermenters = res.data;              
 			}); 
 		}
 		$scope.Save = Save;
@@ -150,7 +122,7 @@
     	  
     	//-------------------
     	//Setup timely updates
-    	var UpdateInterval = $interval($scope.UpdateData, 2000);
+    	var UpdateInterval = $interval($scope.UpdateData, 5000);
 		// listen on DOM destroy (removal) event, and cancel the next UI update
 		$element.on('$destroy', function() {
 			$interval.cancel(UpdateInterval);
@@ -164,7 +136,7 @@
 	     	angular.forEach(newValues, function(value, key) 
 	     	{
 			  if (typeof OldValues === 'undefined' || $.inArray(value, OldValues) !== 1)
-     				chartData.addRow([new Date(value[0]), value[1], undefined]);
+     				chartData.addRow([TicksToDate(value.Item1), value.Item2, undefined]);
 			});
 
   			chartData.sort([{column: 0}]);
@@ -176,7 +148,7 @@
 	     	angular.forEach(newValues, function(value, key) 
 	     	{
 			  if (typeof OldValues === 'undefined' || $.inArray(value, OldValues) !== 1)
-     				chartData.addRow([new Date(value[0]), undefined,  value[1]]);
+     				chartData.addRow([TicksToDate(value.Item1), undefined,  value.Item2]);
 			});
 
   			chartData.sort([{column: 0}]);

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Threading.Tasks;
-using BrewMonitoring.ActionFilters;
 using MongoDB.Bson;
 
 namespace BrewMonitoring.Controllers
 {
-	[CurrentBatchFilter]
 	public class RecipeController : Controller
     {
 
