@@ -7,7 +7,7 @@
 	var ConfigureChart = function(element)
 	{
 		//Configure the chart.
-		chart = new google.visualization.AreaChart(element);
+		chart = new google.visualization.ScatterChart(element);
 		chartData = new google.visualization.DataTable();
 		chartData.addColumn('date', 'Temps');
 		chartData.addColumn('number', 'Actuel');
@@ -15,18 +15,20 @@
 	    chartOptions = 
 	    {
 	      title: "Fermentation",
+	      pointSize: 0,
 	      titleTextStyle:{color: '#FFF', fontSize:20, fontName:"Lato:300,400,700", bold:false},
 	      backgroundColor : "transparent",
 	      vAxis: 
 	      {
 	        title: "Température",
 	        gridlines: {"count": 10},
-	      	minValue: 15,
+	      	minValue: 10,
+	      	maxValue: 30,
 	      	textStyle:{color: '#FFF',fontName:"Lato", fontSize:12,italic:false},
 	      	titleTextStyle:{color: '#FFF',fontName:"Lato", fontSize:16,italic:false},
 	      	baselineColor:"#fff"
 	      },
-	      lineWidth : 2,
+	      lineWidth : 1,
 	      legend: 'none',
 	     /* legend:
 	      {
@@ -41,7 +43,7 @@
 	      	titleTextStyle:{color: '#FFF',fontName:"Lato", fontSize:16,italic:false},
 	      	baselineColor:"#fff"
 	      },
-        animation: {
+    		animation: {
 	        duration: 1000,
 	        easing: 'out'
 	      }
@@ -51,10 +53,10 @@
 	var TicksToDate = function (Ticks)
 	{
 		//ticks are in nanotime; convert to microtime
-		var ticksToMicrotime = Ticks / 10000;
+		var ticksToMicrotime = Ticks;
 		 
 		//ticks are recorded from 1/1/1; get microtime difference from 1/1/1/ to 1/1/1970
-		var epochMicrotimeDiff = 2208988800000;
+		var epochMicrotimeDiff = 621355968000000000;
 		 
 		//new date is ticks, converted to microtime, minus difference from epoch microtime
 		return new Date(ticksToMicrotime - epochMicrotimeDiff);

@@ -14,14 +14,14 @@ namespace BrewMonitoring.Controllers
 		protected Services.BatchService BatchService = new Services.BatchService();
 		public ActionResult Index()
         {
-			return Json(HardwareManager.GetInstance().Fermenters, JsonRequestBehavior.AllowGet);
+			return Json(HardwareManager.GetInstance().GetFermenters(), JsonRequestBehavior.AllowGet);
         }
 
 		public async Task<ActionResult> SetID(Fermenter InFermenter)
 		{
-			for (int i = 0; i < HardwareManager.GetInstance().Fermenters.Count; ++i )
+			for (int i = 0; i < HardwareManager.GetInstance().GetFermenterCount(); ++i )
 			{
-				Fermenter CurrFermenter = HardwareManager.GetInstance().Fermenters[i];
+				Fermenter CurrFermenter = HardwareManager.GetInstance().GetFermenter(i);
 				if (CurrFermenter.TransientID == InFermenter.TransientID)
 				{
 					CurrFermenter.SetID (InFermenter.Id);
@@ -33,7 +33,7 @@ namespace BrewMonitoring.Controllers
 
 				}
 			}
-			return Json(HardwareManager.GetInstance().Fermenters, JsonRequestBehavior.AllowGet);
+			return Json(HardwareManager.GetInstance().GetFermenters(), JsonRequestBehavior.AllowGet);
 		}
     }
 }

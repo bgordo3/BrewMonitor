@@ -2027,3 +2027,259 @@
 2015-06-17T02:45:06.473-0400 I NETWORK  [conn195] end connection 127.0.0.1:58234 (2 connections now open)
 2015-06-17T02:45:06.473-0400 I NETWORK  [conn197] end connection 127.0.0.1:58237 (2 connections now open)
 2015-06-17T02:45:06.473-0400 I NETWORK  [conn196] end connection 127.0.0.1:58235 (2 connections now open)
+2015-06-17T17:50:15.475-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60350 #198 (1 connection now open)
+2015-06-17T17:50:15.817-0400 I ACCESS   [conn198] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T17:50:15.871-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60351 #199 (2 connections now open)
+2015-06-17T17:50:16.024-0400 I ACCESS   [conn199] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T17:51:21.174-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60356 #200 (3 connections now open)
+2015-06-17T17:51:21.357-0400 I ACCESS   [conn200] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T17:56:46.210-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60391 #201 (4 connections now open)
+2015-06-17T17:56:46.371-0400 I ACCESS   [conn201] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T18:07:15.580-0400 I NETWORK  [conn199] end connection 127.0.0.1:60351 (3 connections now open)
+2015-06-17T18:08:15.582-0400 I NETWORK  [conn201] end connection 127.0.0.1:60391 (2 connections now open)
+2015-06-17T18:21:23.983-0400 I NETWORK  [conn200] end connection 127.0.0.1:60356 (1 connection now open)
+2015-06-17T18:21:23.984-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60725 #202 (2 connections now open)
+2015-06-17T18:21:24.154-0400 I ACCESS   [conn202] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T18:27:08.175-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60802 #203 (3 connections now open)
+2015-06-17T18:27:08.338-0400 I ACCESS   [conn203] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T18:32:39.742-0400 I NETWORK  [conn198] end connection 127.0.0.1:60350 (2 connections now open)
+2015-06-17T18:32:39.742-0400 I NETWORK  [conn202] end connection 127.0.0.1:60725 (1 connection now open)
+2015-06-17T18:32:39.742-0400 I NETWORK  [conn203] end connection 127.0.0.1:60802 (0 connections now open)
+2015-06-17T18:33:59.699-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60987 #204 (1 connection now open)
+2015-06-17T18:34:00.137-0400 I ACCESS   [conn204] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T18:34:00.172-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60988 #205 (2 connections now open)
+2015-06-17T18:34:00.174-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60989 #206 (3 connections now open)
+2015-06-17T18:34:00.514-0400 I ACCESS   [conn205] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T18:34:00.538-0400 I ACCESS   [conn206] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:22:50.180-0400 I NETWORK  [conn204] end connection 127.0.0.1:60987 (2 connections now open)
+2015-06-17T19:22:50.180-0400 I NETWORK  [conn205] end connection 127.0.0.1:60988 (2 connections now open)
+2015-06-17T19:22:50.180-0400 I NETWORK  [conn206] end connection 127.0.0.1:60989 (2 connections now open)
+2015-06-17T19:22:58.851-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61408 #207 (1 connection now open)
+2015-06-17T19:22:59.241-0400 I ACCESS   [conn207] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:22:59.276-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61409 #208 (2 connections now open)
+2015-06-17T19:22:59.428-0400 I ACCESS   [conn208] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:23:05.821-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61410 #209 (3 connections now open)
+2015-06-17T19:23:06.102-0400 I ACCESS   [conn209] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:24:25.182-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61444 #210 (4 connections now open)
+2015-06-17T19:24:25.360-0400 I ACCESS   [conn210] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:37:58.925-0400 I NETWORK  [conn209] end connection 127.0.0.1:61410 (3 connections now open)
+2015-06-17T19:53:00.003-0400 I NETWORK  [conn208] end connection 127.0.0.1:61409 (2 connections now open)
+2015-06-17T19:53:00.003-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61958 #211 (3 connections now open)
+2015-06-17T19:53:00.152-0400 I ACCESS   [conn211] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:54:25.192-0400 I NETWORK  [conn210] end connection 127.0.0.1:61444 (2 connections now open)
+2015-06-17T19:54:25.193-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61960 #212 (3 connections now open)
+2015-06-17T19:54:25.213-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61961 #213 (4 connections now open)
+2015-06-17T19:54:25.572-0400 I ACCESS   [conn212] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T19:54:25.572-0400 I ACCESS   [conn213] Successfully authenticated as principal pikaille on Brewing
+2015-06-17T20:04:59.066-0400 I NETWORK  [conn211] end connection 127.0.0.1:61958 (3 connections now open)
+2015-06-21T18:06:15.092-0400 I NETWORK  [conn207] end connection 127.0.0.1:61408 (2 connections now open)
+2015-06-21T18:06:15.092-0400 I NETWORK  [conn212] end connection 127.0.0.1:61960 (2 connections now open)
+2015-06-21T18:06:15.092-0400 I NETWORK  [conn213] end connection 127.0.0.1:61961 (2 connections now open)
+2015-07-05T12:52:23.944-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-05T12:52:24.569-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-05T12:52:24.569-0400 I STORAGE  Service running
+2015-07-05T12:52:24.808-0400 W -        [initandlisten] Detected unclean shutdown - C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\mongod.lock is not empty.
+2015-07-05T12:52:24.929-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-05T12:52:24.953-0400 I JOURNAL  [initandlisten] recover begin
+2015-07-05T12:52:25.008-0400 I JOURNAL  [initandlisten] recover lsn: 83933853
+2015-07-05T12:52:25.009-0400 I JOURNAL  [initandlisten] recover C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal\j._0
+2015-07-05T12:52:25.052-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:0 < lsn:83933853
+2015-07-05T12:52:25.052-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17617176 < lsn:83933853
+2015-07-05T12:52:25.052-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17675016 < lsn:83933853
+2015-07-05T12:52:25.054-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17733057 < lsn:83933853
+2015-07-05T12:52:25.054-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17791037 < lsn:83933853
+2015-07-05T12:52:25.095-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17848960 < lsn:83933853
+2015-07-05T12:52:25.097-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17906760 < lsn:83933853
+2015-07-05T12:52:25.130-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:17964800 < lsn:83933853
+2015-07-05T12:52:25.130-0400 I JOURNAL  [initandlisten] recover skipping application of section seq:18022670 < lsn:83933853
+2015-07-05T12:52:25.163-0400 I JOURNAL  [initandlisten] recover skipping application of section more...
+2015-07-05T12:52:25.508-0400 I JOURNAL  [initandlisten] recover cleaning up
+2015-07-05T12:52:25.508-0400 I JOURNAL  [initandlisten] removeJournalFiles
+2015-07-05T12:52:25.511-0400 I JOURNAL  [initandlisten] recover done
+2015-07-05T12:52:25.577-0400 I JOURNAL  [durability] Durability thread started
+2015-07-05T12:52:25.578-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-05T12:52:25.757-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2052 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-05T12:52:25.757-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-05T12:52:25.757-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-05T12:52:25.757-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-05T12:52:25.757-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-05T12:52:25.758-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-05T12:52:25.758-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-05T12:52:25.758-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-05T12:52:26.341-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-08T15:50:10.341-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-08T15:50:10.413-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-08T15:50:10.414-0400 I STORAGE  Service running
+2015-07-08T15:50:10.486-0400 W -        [initandlisten] Detected unclean shutdown - C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\mongod.lock is not empty.
+2015-07-08T15:50:10.540-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-08T15:50:10.542-0400 I JOURNAL  [initandlisten] recover begin
+2015-07-08T15:50:10.581-0400 I JOURNAL  [initandlisten] recover lsn: 0
+2015-07-08T15:50:10.581-0400 I JOURNAL  [initandlisten] recover C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal\j._0
+2015-07-08T15:50:10.754-0400 I JOURNAL  [initandlisten] recover cleaning up
+2015-07-08T15:50:10.754-0400 I JOURNAL  [initandlisten] removeJournalFiles
+2015-07-08T15:50:10.755-0400 I JOURNAL  [initandlisten] recover done
+2015-07-08T15:50:10.785-0400 I JOURNAL  [durability] Durability thread started
+2015-07-08T15:50:10.785-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2056 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-08T15:50:10.887-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-08T15:50:13.332-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-15T17:25:52.332-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-15T17:25:52.450-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-15T17:25:52.451-0400 I STORAGE  Service running
+2015-07-15T17:25:52.504-0400 W -        [initandlisten] Detected unclean shutdown - C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\mongod.lock is not empty.
+2015-07-15T17:25:52.600-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-15T17:25:52.601-0400 I JOURNAL  [initandlisten] recover begin
+2015-07-15T17:25:52.601-0400 I JOURNAL  [initandlisten] recover lsn: 0
+2015-07-15T17:25:52.601-0400 I JOURNAL  [initandlisten] recover C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal\j._0
+2015-07-15T17:25:52.789-0400 I JOURNAL  [initandlisten] recover cleaning up
+2015-07-15T17:25:52.789-0400 I JOURNAL  [initandlisten] removeJournalFiles
+2015-07-15T17:25:52.789-0400 I JOURNAL  [initandlisten] recover done
+2015-07-15T17:25:52.810-0400 I JOURNAL  [durability] Durability thread started
+2015-07-15T17:25:52.810-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2096 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-15T17:25:52.962-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-15T17:25:55.345-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-15T22:46:12.002-0400 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_SHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2015-07-15T22:46:13.058-0400 I CONTROL  [serviceStopWorker] now exiting
+2015-07-15T22:46:13.058-0400 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-07-15T22:46:13.075-0400 I NETWORK  [serviceStopWorker] closing listening socket: 380
+2015-07-15T22:46:13.075-0400 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-07-15T22:46:13.075-0400 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-07-15T22:46:13.075-0400 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-07-15T22:46:13.101-0400 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-07-15T22:46:13.705-0400 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-07-15T22:46:13.705-0400 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-07-15T22:46:14.066-0400 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-07-15T22:46:14.128-0400 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-15T22:46:14.128-0400 I JOURNAL  [durability] Durability thread stopped
+2015-07-15T22:46:14.128-0400 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-07-15T22:46:14.147-0400 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-07-15T22:46:14.163-0400 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-07-15T22:46:14.163-0400 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2015-07-16T12:38:53.950-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-16T12:38:54.030-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-16T12:38:54.032-0400 I STORAGE  Service running
+2015-07-16T12:38:54.155-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-16T12:38:54.172-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-16T12:38:54.202-0400 I JOURNAL  [durability] Durability thread started
+2015-07-16T12:38:54.203-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2088 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-16T12:38:54.352-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-16T12:38:54.353-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-16T12:38:54.353-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-16T12:38:56.315-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-21T16:31:34.295-0400 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_SHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2015-07-21T16:31:36.324-0400 I CONTROL  [serviceStopWorker] now exiting
+2015-07-21T16:31:36.324-0400 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-07-21T16:31:36.681-0400 I NETWORK  [serviceStopWorker] closing listening socket: 384
+2015-07-21T16:31:36.776-0400 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-07-21T16:31:36.776-0400 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-07-21T16:31:36.784-0400 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-07-21T16:31:36.785-0400 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-07-21T16:31:39.026-0400 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-07-21T16:31:39.037-0400 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-07-21T16:31:39.648-0400 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-07-21T16:31:39.698-0400 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-21T16:31:39.698-0400 I JOURNAL  [durability] Durability thread stopped
+2015-07-21T16:31:39.719-0400 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-07-21T16:31:40.060-0400 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-07-21T16:31:40.061-0400 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-07-21T16:31:40.061-0400 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2015-07-30T10:38:38.443-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-30T10:38:38.530-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-30T10:38:38.531-0400 I STORAGE  Service running
+2015-07-30T10:38:38.614-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-30T10:38:38.638-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-30T10:38:38.735-0400 I JOURNAL  [durability] Durability thread started
+2015-07-30T10:38:38.736-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2264 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-30T10:38:38.977-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-30T10:38:41.295-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-31T01:10:43.506-0400 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_SHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2015-07-31T01:10:43.880-0400 I CONTROL  [serviceStopWorker] now exiting
+2015-07-31T01:10:43.881-0400 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-07-31T01:10:43.907-0400 I NETWORK  [serviceStopWorker] closing listening socket: 384
+2015-07-31T01:10:43.907-0400 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-07-31T01:10:43.907-0400 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-07-31T01:10:43.907-0400 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-07-31T01:10:43.907-0400 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-07-31T01:10:44.978-0400 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-07-31T01:10:52.058-0400 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-07-31T01:10:52.214-0400 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-07-31T01:10:52.272-0400 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-31T01:10:52.272-0400 I JOURNAL  [durability] Durability thread stopped
+2015-07-31T01:10:52.272-0400 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-07-31T01:10:52.310-0400 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-07-31T01:10:52.418-0400 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-07-31T01:10:52.418-0400 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2015-07-31T01:19:23.834-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-31T01:19:23.875-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-31T01:19:23.876-0400 I STORAGE  Service running
+2015-07-31T01:19:24.076-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-31T01:19:24.076-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-31T01:19:24.099-0400 I JOURNAL  [durability] Durability thread started
+2015-07-31T01:19:24.099-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2204 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-31T01:19:24.363-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-31T01:19:26.105-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-31T02:07:54.214-0400 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_SHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2015-07-31T02:07:54.245-0400 I CONTROL  [serviceStopWorker] now exiting
+2015-07-31T02:07:54.245-0400 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-07-31T02:07:54.245-0400 I NETWORK  [serviceStopWorker] closing listening socket: 380
+2015-07-31T02:07:54.245-0400 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-07-31T02:07:54.245-0400 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-07-31T02:07:54.245-0400 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-07-31T02:07:54.245-0400 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-07-31T02:07:54.923-0400 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-07-31T02:07:54.923-0400 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-07-31T02:07:54.923-0400 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-07-31T02:07:54.962-0400 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-31T02:07:54.962-0400 I JOURNAL  [durability] Durability thread stopped
+2015-07-31T02:07:54.962-0400 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-07-31T02:07:55.074-0400 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-07-31T02:07:55.074-0400 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-07-31T02:07:55.074-0400 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2015-07-31T02:09:08.790-0400 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-31T02:09:08.841-0400 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-07-31T02:09:08.842-0400 I STORAGE  Service running
+2015-07-31T02:09:08.984-0400 I JOURNAL  [initandlisten] journal dir=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data\journal
+2015-07-31T02:09:08.984-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-31T02:09:09.009-0400 I JOURNAL  [durability] Durability thread started
+2015-07-31T02:09:09.009-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] MongoDB starting : pid=2164 port=27017 dbpath=C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data 64-bit host=vincent-pc
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] allocator: system
+2015-07-31T02:09:09.172-0400 I CONTROL  [initandlisten] options: { config: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, setParameter: { enableLocalhostAuthBypass: "false" }, storage: { dbPath: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\Vincent\Documents\Projects\BrewMonitor\DB\mongod.log" } }
+2015-07-31T02:09:10.764-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
